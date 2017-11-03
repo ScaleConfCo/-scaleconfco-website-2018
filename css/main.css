@@ -1,0 +1,225 @@
+body {
+    background-color: #AAA;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+p {
+    margin: 0;
+    font-size: 1em;
+    color: #161446;
+    font-weight: bold;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+nav {
+    background-color: #55F490;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    list-style: none;
+    margin: 1.5em 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 5em;
+    white-space:pre-wrap;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 4em;
+    padding: 2rem;
+    padding-left: 10%;
+    display: inline-block;
+}
+
+.map {
+    margin: auto;
+    display: block;
+    width: 85%;
+    height: 350px;
+}
+
+#venue > p, #hotels > p {
+    padding-top: 1.5rem;
+    display: inline-block;
+    float: right;
+    width: 350px;
+}
+
+.centerText {
+    padding: 0 10rem;
+}
+
+.link {
+    background-color: #161446;
+    padding: 10px;
+    border-radius: 1px;
+    text-decoration: underline;
+}
+
+#lastYear > img {
+    margin: auto;
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.speakers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.speaker {
+    padding: 1rem;
+    width: 20%;
+}
+
+.speaker > img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.speakerTitle {
+    height: 6em;
+    color: #40CBB6;
+}
+
+.speakerName {
+    height: 3em;
+    color: #FFF;
+}
+
+.lastYearLinks{
+    text-align: center;
+}
+
+.footerLinks {
+    text-align: center;
+}
+
+#welcome {
+    padding-top: 6em;
+    background-color: #55F490;
+}
+
+#welcome > h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+#welcome > p {
+    display: flex;
+    justify-content: center;
+}
+
+svg#bigTriangleColor {
+  pointer-events: none;
+}
+
+#cfp > #bigTriangleColor path {
+  fill: #55F490;
+  stroke: #55F490;
+  stroke-width: 2;
+}
+
+#cfp {
+    background-color: #4AE0A3;
+}
+
+#venue > #bigTriangleColor path {
+  fill: #4AE0A3;
+  stroke: #4AE0A3;
+  stroke-width: 2;
+}
+
+#venue{
+    background-color: #40CBB6;
+}
+
+#hotels > #bigTriangleColor path {
+  fill: #40CBB6;
+  stroke: #40CBB6;
+  stroke-width: 2;
+}
+
+#hotels{
+    background-color: #37B8C9;
+}
+
+#codeOfConduct > #bigTriangleColor path {
+  fill: #37B8C9;
+  stroke: #37B8C9;
+  stroke-width: 2;
+}
+
+#codeOfConduct{
+    background-color: #2EA4DB;
+}
+
+#lastYear > #bigTriangleColor path {
+  fill: #2EA4DB;
+  stroke: #2EA4DB;
+  stroke-width: 2;
+}
+
+#lastYear{
+    background-color: #1A72FF;
+}
+
+footer {
+    display: block;
+    background-color: #1A72FF;
+}
+
+#curveUpColor path,
+#curveDownColor path {
+  fill: #0557EB;
+  stroke: #0557EB;
+  display: block;
+}
+svg {
+    display: block;
+}
+
+footer > div {
+    background-color: #0557EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.emailSubscribe {
+    background-color: #55F490;
+    padding: 4px;
+    border-width: 0;
+}

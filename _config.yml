@@ -1,0 +1,12 @@
+# Site Settings
+title: ScaleConfCo
+email: hola@scaleconfco.com
+description: ""
+baseurl: "/"
+url: ""
+twitter_username: scaleconfco
+github_username:  ScaleConfCo
+
+# Build settings
+plugins:
+  - jekyll-feed
