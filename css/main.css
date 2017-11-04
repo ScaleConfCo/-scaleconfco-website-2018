@@ -19,7 +19,7 @@ section {
 }
 
 nav {
-    background-color: #55F490;
+    background-color: #50EE85;
     position: fixed;
     right: 0;
     left: 0;
@@ -122,7 +122,7 @@ h2 {
 
 #welcome {
     padding-top: 6em;
-    background-color: #55F490;
+    background-color: #50EE85;
 }
 
 #welcome > h2 {
@@ -136,6 +136,8 @@ h2 {
 #welcome > p {
     display: flex;
     justify-content: center;
+    color: #3B396B;
+    font-size: 1.2em;
 }
 
 svg#bigTriangleColor {
@@ -143,64 +145,64 @@ svg#bigTriangleColor {
 }
 
 #cfp > #bigTriangleColor path {
-  fill: #55F490;
-  stroke: #55F490;
+  fill: #50EE85;
+  stroke: #50EE85;
   stroke-width: 2;
 }
 
 #cfp {
-    background-color: #4AE0A3;
+    background-color: #45DA9D;
 }
 
 #venue > #bigTriangleColor path {
-  fill: #4AE0A3;
-  stroke: #4AE0A3;
+  fill: #45DA9D;
+  stroke: #45DA9D;
   stroke-width: 2;
 }
 
 #venue{
-    background-color: #40CBB6;
+    background-color: #35C6B1;
 }
 
 #hotels > #bigTriangleColor path {
-  fill: #40CBB6;
-  stroke: #40CBB6;
+  fill: #35C6B1;
+  stroke: #35C6B1;
   stroke-width: 2;
 }
 
 #hotels{
-    background-color: #37B8C9;
+    background-color: #32B3C4;
 }
 
 #codeOfConduct > #bigTriangleColor path {
-  fill: #37B8C9;
-  stroke: #37B8C9;
+  fill: #32B3C4;
+  stroke: #32B3C4;
   stroke-width: 2;
 }
 
 #codeOfConduct{
-    background-color: #2EA4DB;
+    background-color: #299ED6;
 }
 
 #lastYear > #bigTriangleColor path {
-  fill: #2EA4DB;
-  stroke: #2EA4DB;
+  fill: #299ED6;
+  stroke: #299ED6;
   stroke-width: 2;
 }
 
 #lastYear{
-    background-color: #1A72FF;
+    background-color: #1667FB;
 }
 
 footer {
     display: block;
-    background-color: #1A72FF;
+    background-color: #1667FB;
 }
 
 #curveUpColor path,
 #curveDownColor path {
-  fill: #0557EB;
-  stroke: #0557EB;
+  fill: #0052E6;
+  stroke: #0052E6;
   display: block;
 }
 svg {
@@ -208,7 +210,7 @@ svg {
 }
 
 footer > div {
-    background-color: #0557EB;
+    background-color: #0052E6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,7 +221,16 @@ footer > div {
 }
 
 .emailSubscribe {
-    background-color: #55F490;
+    background-color: #55EE85;
     padding: 4px;
     border-width: 0;
+}
+
+div.apply {
+    display: flex;
+    justify-content: center;
+}
+
+a.apply {
+    margin: 1rem;
 }
