@@ -19,7 +19,7 @@ section {
 }
 
 nav {
-    background-color: #50EE85;
+    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
     position: fixed;
     right: 0;
     left: 0;
@@ -38,7 +38,7 @@ nav ul {
 h1 {
     display: flex;
     justify-content: center;
-    color: #FFFFFF;
+    color: #FFF;
     font-family: 'Pragati Narrow', sans-serif;
     font-size: 5em;
     white-space:pre-wrap;
@@ -65,6 +65,7 @@ h2 {
     display: inline-block;
     float: right;
     width: 350px;
+    color: #FFF;
 }
 
 .centerText {
@@ -72,10 +73,10 @@ h2 {
 }
 
 .link {
-    background-color: #161446;
+    background-color: #56FFB7;
     padding: 10px;
     border-radius: 1px;
-    text-decoration: underline;
+
 }
 
 #lastYear > img {
@@ -122,7 +123,8 @@ h2 {
 
 #welcome {
     padding-top: 6em;
-    background-color: #50EE85;
+    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
+    padding-bottom: 2rem;
 }
 
 #welcome > h2 {
@@ -145,63 +147,67 @@ svg#bigTriangleColor {
 }
 
 #cfp > #bigTriangleColor path {
-  fill: #50EE85;
-  stroke: #50EE85;
+  fill: #FFF;
+  stroke: #FFF;
   stroke-width: 2;
 }
 
 #cfp {
-    background-color: #45DA9D;
+    background-color: #112B48;
 }
 
 #venue > #bigTriangleColor path {
-  fill: #45DA9D;
-  stroke: #45DA9D;
+  fill: #112B48;
+  stroke: #112B48;
   stroke-width: 2;
 }
 
 #venue{
-    background-color: #35C6B1;
+    background-color: #10233F;
 }
 
 #hotels > #bigTriangleColor path {
-  fill: #35C6B1;
-  stroke: #35C6B1;
+  fill: #10233F;
+  stroke: #10233F;
   stroke-width: 2;
 }
 
 #hotels{
-    background-color: #32B3C4;
+    background-color: #16375E;
 }
 
 #codeOfConduct > #bigTriangleColor path {
-  fill: #32B3C4;
-  stroke: #32B3C4;
+  fill: #16375E;
+  stroke: #16375E;
   stroke-width: 2;
 }
 
 #codeOfConduct{
-    background-color: #299ED6;
+    background-color: #FFF;
+}
+
+#codeOfConduct > h2 {
+    color: #000;
 }
 
 #lastYear > #bigTriangleColor path {
-  fill: #299ED6;
-  stroke: #299ED6;
+  fill: #FFF;
+  stroke: #FFF;
   stroke-width: 2;
 }
 
 #lastYear{
-    background-color: #1667FB;
+    background-color: #16375E;
 }
 
 footer {
     display: block;
-    background-color: #1667FB;
+    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
 }
 
 #curveUpColor path,
 #curveDownColor path {
-  fill: #0052E6;
+  fill: linear-gradient(90deg, #57FF9F, #068EFF);
   stroke: #0052E6;
   display: block;
 }
@@ -210,7 +216,7 @@ svg {
 }
 
 footer > div {
-    background-color: #0052E6;
+    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,9 +227,10 @@ footer > div {
 }
 
 .emailSubscribe {
-    background-color: #55EE85;
+    background-color: #13274E;
     padding: 4px;
     border-width: 0;
+    color: #FFF;
 }
 
 div.apply {
@@ -232,5 +239,15 @@ div.apply {
 }
 
 a.apply {
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5em;
+}
+
+#lastYear > div > h3 {
+    color: #FFF;
+}
+
+#lastYear > div > div > p {
+    color: #5CFF9F;
 }
