@@ -1,253 +1,213 @@
-body {
-    background-color: #AAA;
-}
+/*
+    blue-background: #1D2152
+    blue-buttons: #0099F7
+    green: #3DF9AD
+*/
 
-a, a:hover {
-    text-decoration: none;
-    color: #FFF;
-}
-
-p {
+body, p {
     margin: 0;
-    font-size: 1em;
-    color: #161446;
-    font-weight: bold;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a , a:hover{
+  color: inherit;
+  text-decoration: inherit;
 }
 
 section {
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 }
 
 nav {
-    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
+    background-color: rgba(16,15,43,0.2);
     position: fixed;
     right: 0;
     left: 0;
 }
+
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     width: 100%;
     list-style-type: none;
     list-style: none;
-    margin: 1.5em 0;
+    margin: 0;
+    margin-left: 1em;
     padding: 0;
     font-weight: bold;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    color: #FFF;
-    font-family: 'Pragati Narrow', sans-serif;
-    font-size: 5em;
-    white-space:pre-wrap;
-}
-
-h2 {
-    color: #FFFFFF;
-    font-family: 'Pragati Narrow', sans-serif;
-    font-size: 4em;
-    padding: 2rem;
-    padding-left: 10%;
-    display: inline-block;
-}
-
-.map {
-    margin: auto;
-    display: block;
-    width: 85%;
-    height: 350px;
-}
-
-#venue > p, #hotels > p {
-    padding-top: 1.5rem;
-    display: inline-block;
-    float: right;
-    width: 350px;
+nav ul li {
+    margin: 2em;
     color: #FFF;
 }
 
-.centerText {
-    padding: 0 10rem;
+.bold {
+    font-weight: bold;
 }
 
-.link {
-    background-color: #56FFB7;
-    padding: 10px;
-    border-radius: 1px;
-    color: #102252;
+.buttonRadius {
+    border-radius: 20px;
+    padding: 0.5rem 0.9rem;
 }
 
-#lastYear > img {
-    margin: auto;
-    display: block;
-    width: 40%;
-    height: auto;
+.sponsorButton {
+    background-color: #3DF9AD;
+    color: #1D2152;
+    margin-right: 4rem;
 }
 
-.speakers {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.5rem;
-}
-
-.speaker {
-    padding: 1rem;
-    width: 20%;
-}
-
-.speaker > img {
-    width: 150px;
-    height: auto;
-    vertical-align: middle;
-}
-
-.speakerTitle {
-    height: 6em;
-    color: #40CBB6;
-}
-
-.speakerName {
-    height: 3em;
-    color: #FFF;
-}
-
-.lastYearLinks{
-    text-align: center;
-}
-
-.footerLinks {
-    text-align: center;
+.dates {
+    background-color: #1D2152;
+    color: #3DF9AD;
 }
 
 #welcome {
-    padding-top: 6em;
-    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
-    padding-bottom: 2rem;
-}
-
-#welcome > h2 {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    padding-top: 0;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
 }
 
-#welcome > p {
+#lastYearImage {
+    background-image: url('../images/background.png');
+}
+
+#welcome > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.wCenter {
     display: flex;
     justify-content: center;
-    color: #3B396B;
-    font-size: 1.2em;
-}
-
-svg#bigTriangleColor {
-  pointer-events: none;
-}
-
-#cfp > #bigTriangleColor path {
-  fill: #FFF;
-  stroke: #FFF;
-  stroke-width: 2;
 }
 
 #cfp {
-    background-color: #112B48;
+    width: 100vw;
+    background-color: #1D2152;
+    color: #FFF;
+    padding: 1rem;
 }
 
-#venue > #bigTriangleColor path {
-  fill: #112B48;
-  stroke: #112B48;
-  stroke-width: 2;
+#cfp > * {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
 }
 
-#venue{
-    background-color: #10233F;
+#cfp > div > a:first-child {
+    margin-right: 1.5rem;
 }
 
-#hotels > #bigTriangleColor path {
-  fill: #10233F;
-  stroke: #10233F;
-  stroke-width: 2;
+
+#mailingList {
+    display: flex;
+    justify-content: center;
 }
 
-#hotels{
-    background-color: #16375E;
+#mailingList > div > p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.7rem;
 }
 
-#codeOfConduct > #bigTriangleColor path {
-  fill: #16375E;
-  stroke: #16375E;
-  stroke-width: 2;
+.formEmail {
+    width: 35vw;
+    margin-right: 0.7rem;
 }
 
-#codeOfConduct{
-    background-color: #FFF;
+.formButton {
+    width: 10vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-#codeOfConduct > h2 {
-    color: #000;
+.emailInput {
+    border: none;
+    border-bottom: 1px;
+    border-bottom-color: #15274D;;
+    border-bottom-style: solid;
 }
 
-#lastYear > #bigTriangleColor path {
-  fill: #FFF;
-  stroke: #FFF;
-  stroke-width: 2;
+.blueButton {
+    background-color: #0099F7;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.5rem;
+    border-style: none;
+    color: #FFF;
 }
 
-#lastYear{
-    background-color: #16375E;
+h2 {
+    color: #17375D;
+    margin-bottom: 2rem;
+}
+
+h2:after{
+    content: "";
+    position: absolute;
+    width: 7%;
+    height: 1.45em;
+    left: 15%;
+    border-bottom: 3px solid #1D2152;
+}
+
+#about > div {
+    display: flex;
+    flex: center;
+}
+
+.aboutBlueText {
+    color: #0099F7;
+    font-size: 1.6em;
+    padding-right: 1em;
+}
+
+#about, #codeOfConduct, footer {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 footer {
-    display: block;
-    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
-}
-
-#curveUpColor path,
-#curveDownColor path {
-  fill: linear-gradient(90deg, #57FF9F, #068EFF);
-  stroke: #0052E6;
-  display: block;
-}
-svg {
-    display: block;
+    padding-top: 1rem;
+    border-top: 1px;
+    border-top-color: #15274D;
+    border-top-style: solid;
+    display: flex;
+    justify-content: center;
 }
 
 footer > div {
-    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
-.icon {
-    width: 35px;
-    height: 35px;
-}
-
-.emailSubscribe {
-    background-color: #13274E;
-    padding: 4px;
-    border-width: 0;
-    color: #FFF;
-}
-
-div.apply {
+footer > div > div {
     display: flex;
     justify-content: center;
+    padding-bottom: 0.3rem;
 }
 
-a.apply {
-    margin: 0.5rem;
-    padding: 1rem;
+.mail {
+    color: #0099F7;
+    margin-bottom: 3rem;
+}
+
+.icon {
+    padding: 0.5rem 0.3rem;
+    width: 3rem;
+    height: 3.3rem;
+}
+
+p.title {
     font-size: 1.5em;
+    color: #1D2152;
 }
 
-#lastYear > div > h3 {
-    color: #FFF;
-}
+.gradient {
+    width: 100vw;
+    height: 1.5rem;
+    background-image: linear-gradient(90deg, #57FF9F, #068EFF);
+    margin-bottom: 1rem;
 
-#lastYear > div > div > p {
-    color: #5CFF9F;
 }
