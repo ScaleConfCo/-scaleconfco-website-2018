@@ -1,3 +1,4 @@
+{% assign t = site.data.lang %}
 <nav>
     <ul>
         <li><a href="http://2017.scaleconfco.com">ScaleConf Colombia 2017</a></li>
@@ -14,7 +15,7 @@
             <text x="5" y="1" text-anchor="middle" font-size="1" font-family="inherit" fill="#fff">SCALECONF</text>
         </svg>
         <p class="colombia wCenter">COLOMBIA</p>
-        <p class="dates wCenter">April 27 - 28th 2018</p>
+        <p class="dates wCenter">{{ t.[page.lang].date }}</p>
     </div>
 </section>
 <section class="svg">
@@ -31,9 +32,7 @@
 <section id="mailingList">
     <div>
         <p class="title">Stay tuned, join our mailing list</p>
-        <form
-          action="//scaleconfco.us13.list-manage.com/subscribe/post?u=5e496acbac5eeec4a22312bd0&amp;id=96c6dc44ae"
-          method="post">
+        <form action="//scaleconfco.us13.list-manage.com/subscribe/post?u=5e496acbac5eeec4a22312bd0&amp;id=96c6dc44ae" method="post">
           <input type="email" name="EMAIL" placeholder="" class="emailInput formEmail"
           />
           <input type="submit" value="Join" class="emailSubscribe blueButton formButton"/>
@@ -83,7 +82,7 @@
             <p class="title">Got any questions?</p>
         </div>
         <div>
-            <a href="mailto: hola@scaleconfco.com" class="mail">hola@scaleconfco.com</a>
+            <a href="mailto:hola@scaleconfco.com" class="mail">hola@scaleconfco.com</a>
         </div>
     </div>
 </footer>
