@@ -58,25 +58,17 @@ nav ul li {
     margin-right: 4rem;
 }
 
-.dates {
-    background-color: #1D2152;
-    color: #3DF9AD;
-}
-
 #welcome {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
-#lastYearImage {
-    background-image: url('../images/background.png');
-}
-
-#welcome > div {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 0;
+    padding-top:50%;
+    background-image: url('../images/scaleconfco_2017.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+
 }
 
 .wCenter {
@@ -84,11 +76,35 @@ nav ul li {
     justify-content: center;
 }
 
+#titleAndDate {
+    color: #FFF;
+    width: 100%;
+    margin-top: -27rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 7rem;
+}
+
+.colombia {
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+.dates {
+    background-color: #1D2152;
+    color: #3DF9AD;
+    font-size: 2rem;
+    padding: 5px 0;
+    margin: 0 35%;
+}
+
 #cfp {
-    width: 100vw;
     background-color: #1D2152;
     color: #FFF;
     padding: 1rem;
+    width:100%;
 }
 
 #cfp > * {
@@ -101,8 +117,8 @@ nav ul li {
     margin-right: 1.5rem;
 }
 
-
 #mailingList {
+    margin-top: 3.5rem;
     display: flex;
     justify-content: center;
 }
@@ -205,7 +221,7 @@ p.title {
 }
 
 .gradient {
-    width: 100vw;
+    width: 100%;
     height: 1.5rem;
     background-image: linear-gradient(90deg, #57FF9F, #068EFF);
     margin-bottom: 1rem;
