@@ -94,7 +94,8 @@ nav ul li a:hover {
 }
 
 #titleAndDate svg {
-    font-weight: 800; 
+    font-weight: 800;
+    margin: 0 10%;
 }
 
 h1 {
@@ -104,8 +105,9 @@ h1 {
 
 .colombia {
     font-weight: 300;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 4rem;
+    letter-spacing: 1rem;
     margin-bottom: 2.5rem;
     color: #fff;
 }
