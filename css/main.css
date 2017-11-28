@@ -326,6 +326,12 @@ section.svg {
     margin: 0;
     padding: 0;
 }
+section.svg .svg-cfp {
+    height: 11rem;
+    position: absolute;
+    left: 15rem;
+    top: -7.5rem;
+}
 section.svg .svg-about {
     height: 8rem;
     position: absolute;
