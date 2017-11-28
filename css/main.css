@@ -8,6 +8,7 @@ body, p {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    color: #555;
 }
 
 a , a:hover{
@@ -90,12 +91,15 @@ h1 {
 .colombia {
     font-weight: 300;
     font-size: 5rem;
+    line-height: 4rem;
+    margin-bottom: 2.5rem;
+    color: #fff;
 }
 
 .dates {
     background-color: #1D2152;
     color: #3DF9AD;
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 5px 0;
     margin: 0 35%;
 }
@@ -110,7 +114,13 @@ h1 {
 #cfp > * {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 1rem;
+}
+
+#cfp p {
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 #cfp > div > a:first-child {
@@ -123,10 +133,13 @@ h1 {
     justify-content: center;
 }
 
-#mailingList > div > p {
+#mailingList div p {
     display: flex;
     justify-content: center;
     margin-bottom: 0.7rem;
+    color: #17375D;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .formEmail {
@@ -135,16 +148,16 @@ h1 {
 }
 
 .formButton {
-    width: 10vw;
+    width: 13vw;
     padding-left: 1rem;
     padding-right: 1rem;
+    cursor: pointer;
 }
 
 .emailInput {
     border: none;
-    border-bottom: 1px;
-    border-bottom-color: #15274D;;
-    border-bottom-style: solid;
+    border-bottom: 1px solid #15274D;
+    text-align: center;
 }
 
 .blueButton {
@@ -153,11 +166,16 @@ h1 {
     margin-top: 0.5rem;
     border-style: none;
     color: #FFF;
+    text-align: center;
+}
+#cfp .blueButton {
+    min-width: 15rem;
 }
 
 h2 {
     color: #17375D;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 h2:after{
@@ -174,10 +192,15 @@ h2:after{
     flex: center;
 }
 
-.aboutBlueText {
+#about .aboutBlueText {
     color: #0099F7;
-    font-size: 1.6em;
+    font-size: 1.5rem;
     padding-right: 1em;
+    margin-top: 1rem;
+}
+
+#about p {
+    color: #555;
 }
 
 #about, #codeOfConduct, footer {
@@ -185,11 +208,25 @@ h2:after{
     margin-right: 15%;
 }
 
+#codeOfConduct h2 {
+    margin-bottom: 4rem;
+}
+
+#codeOfConduct p {
+    margin: 2rem 0;
+}
+
+#codeOfConduct p:last-child {
+    margin: 4rem 0 2rem;
+}
+
+#codeOfConduct .blueButton {
+    padding: 0.5rem 3rem;
+}
+
 footer {
-    padding-top: 1rem;
-    border-top: 1px;
-    border-top-color: #15274D;
-    border-top-style: solid;
+    padding: 2.5rem 0 3rem;
+    border-top: 2px solid #8d8fa7;
     display: flex;
     justify-content: center;
 }
@@ -204,19 +241,53 @@ footer > div > div {
     padding-bottom: 0.3rem;
 }
 
-.mail {
+footer .social {
+    margin: 1.5rem 0 2rem;
+}
+
+footer a .icon {
+    margin: 0.4rem;
+    padding: 1rem;
+    line-height: 0;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    transition: 0.1s;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+footer a .facebook {
+    background-image: url('../images/facebook.png');
+}
+
+footer a .twitter {
+    background-image: url('../images/twitter.png');
+}
+
+footer a .instagram {
+    background-image: url('../images/instagram.png');
+}
+
+footer a .flickr {
+    background-image: url('../images/flickr.png');
+}
+
+footer a .icon:hover {
+    background-position: center top;
+}
+
+footer a.mail {
     color: #0099F7;
-    margin-bottom: 3rem;
+}
+footer a.mail:hover {
+    color: #1D2152;
 }
 
-.icon {
-    padding: 0.5rem 0.3rem;
-    width: 3rem;
-    height: 3.3rem;
-}
-
-p.title {
-    font-size: 1.5em;
+footer p.title {
+    font-size: 1.3rem;
+    font-weight: bold;
     color: #1D2152;
 }
 
@@ -224,6 +295,28 @@ p.title {
     width: 100%;
     height: 1.5rem;
     background-image: linear-gradient(90deg, #57FF9F, #068EFF);
-    margin-bottom: 1rem;
+}
 
+section.svg {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+section.svg .svg-about {
+    height: 8rem;
+    position: absolute;
+    left: -4rem;
+    top: -3rem;
+}
+section.svg .svg-code {
+    height: 15rem;
+    position: absolute;
+    right: -8rem;
+    top: -10rem;
+}
+section.svg .svg-footer {
+    height: 15rem;
+    position: absolute;
+    left: -4rem;
+    top: -1rem;
 }
