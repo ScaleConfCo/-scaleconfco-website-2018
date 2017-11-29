@@ -1,9 +1,12 @@
+{% assign t = site.data.lang.[page.lang] %}
 <nav>
     <ul>
-        <li><a href="http://2017.scaleconfco.com">ScaleConf Colombia 2017</a></li>
-        <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">Conference Videos</a></li>
-        <li><a href="#cfp">CFP is open</a></li>
-        <li><a href="mailto: hola@scaleconfco.com" class="sponsorButton">Become a sponsor</a></li>
+        <li><a href="http://2017.scaleconfco.com">{{ t.nav[0] }}</a></li>
+        <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">{{ t.nav[1] }}</a></li>
+        <li><a href="#cfp">{{ t.nav[2] }}</a></li>
+        <li><a href="mailto:hola@scaleconfco.com" class="sponsorButton">{{ t.nav[3] }}</a></li>
+        <li><a href="/" class="nav-lang {% if page.lang == 'en' %}active{% endif %}">EN</a></li>
+        <li><a href="/es/" class="nav-lang {% if page.lang == 'es' %}active{% endif %}">ES</a></li>
     </ul>
 </nav>
 <section id="welcome">
@@ -14,31 +17,29 @@
             <text x="5" y="1" text-anchor="middle" font-size="1" font-family="inherit" fill="#fff">SCALECONF</text>
         </svg>
         <p class="colombia wCenter">COLOMBIA</p>
-        <p class="dates wCenter">April 27 - 28th 2018</p>
+        <p class="dates wCenter">{{ t.date }}</p>
     </div>
 </section>
 <section class="svg">
     {% include fig_4.svg %}
 </section>
 <section id="cfp">
-    <h3 class="bold">Our CFP is open</h3>
-    <p>Come to visit beautiful Colombia and<br>share your knowledge</p>
+    <h3 class="bold">{{ t.cfp.title }}</h3>
+    <p>{{ t.cfp.desc }}</p>
     <div>
-        <a href="https://www.papercall.io/scaleconfco2018" class="blueButton">Apply for a talk</a>
-        <a href="https://www.papercall.io/scaleconfco2018-lightning" class="blueButton">Apply for a lightning talk</a>
+        <a href="https://www.papercall.io/scaleconfco2018" class="blueButton">{{ t.cfp.buttons.[0] }}</a>
+        <a href="https://www.papercall.io/scaleconfco2018-lightning" class="blueButton">{{ t.cfp.buttons.[1] }}</a>
     </div>
 </section>
 <section id="mailingList">
     <div>
-        <p class="title">Stay tuned, join our mailing list</p>
-        <form
-          action="//scaleconfco.us13.list-manage.com/subscribe/post?u=5e496acbac5eeec4a22312bd0&amp;id=96c6dc44ae"
-          method="post">
+        <p class="title">{{ t.mailing.title }}</p>
+        <form action="//scaleconfco.us13.list-manage.com/subscribe/post?u=5e496acbac5eeec4a22312bd0&amp;id=96c6dc44ae" method="post">
           <input type="email" name="EMAIL" placeholder="" class="emailInput formEmail"
           />
-          <input type="submit" value="Join" class="emailSubscribe blueButton formButton"/>
+          <input type="submit" value="{{ t.mailing.button }}" class="emailSubscribe blueButton formButton"/>
         </form>
-        <p class="title">And follow us</p>
+        <p class="title">{{ t.mailing.follow }}</p>
         <div class="social">
             <a href="https://www.facebook.com/scaleconfco/"><i class="icon facebook" alt="facebook"></i></a>
             <a href="https://www.twitter.com/scaleconfco/"><i class="icon twitter" alt="twitter"></i></a>
@@ -51,15 +52,15 @@
     {% include fig_1.svg %}
 </section>
 <section id="about">
-    <h2 class="bold">About the conference</h2>
+    <h2 class="bold">{{ t.about.title }}</h2>
     <div>
         <div>
-        <p class="aboutBlueText">ScaleConf Colombia is non-profit language-agnostic conference organized by volunteers to bring knowledge on scalability, distributed systems, DevOps and modern software tools to the community.</p>
+            <p class="aboutBlueText">{{ t.about.blue }}</p>
         </div>
         <div>
-        <p>Our main objetive is to level up the community’s knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow’s apps and services.</p>
-        <br>
-        <p>Last year’s event was successful beyond our expectations, with over 350 attendees, 13 awesome speakers, 10 sponsors and 2 days of exciting talks and workshops, so ScaleConf Colombia is coming back for 2018!</p>
+            <p>{{ t.about.first }}</p>
+            <br>
+            <p>{{ t.about.second }}</p>
         </div>
     </div>
 </section>
@@ -67,11 +68,11 @@
     {% include fig_2.svg %}
 </section>
 <section id="codeOfConduct">
-    <h2 class="bold">Code of Conduct</h2>
-    <p>A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.</p>
-    <p>As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in ScaleConf Colombia to help us create safe and positive experiences for everyone.</p>
+    <h2 class="bold">{{ t.code.title }}</h2>
+    <p>{{ t.code.first }}</p>
+    <p>{{ t.code.second }}</p>
     <p>
-        <a href="https://github.com/ScaleConfCo/code-of-conduct" class="blueButton">Read our Code of Conduct</a>
+        <a href="https://github.com/ScaleConfCo/code-of-conduct" class="blueButton">{{ t.code.button }}</a>
     </p>
 </section>
 <section class="svg">
@@ -79,7 +80,7 @@
 </section>
 <footer>
     <div>
-        <p class="title">Let’s stay in touch, follow us</p>
+        <p class="title">{{ t.footer.title }}</p>
         <div class="social">
             <a href="https://www.facebook.com/scaleconfco/"><i class="icon facebook" alt="facebook"></i></a>
             <a href="https://www.twitter.com/scaleconfco/"><i class="icon twitter" alt="twitter"></i></a>
@@ -87,10 +88,10 @@
             <a href="https://www.flickr.com/photos/137671831@N08/"><i class="icon flickr" alt="flickr"></i></a>
         </div>
         <div>
-            <p class="title">Got any questions?</p>
+            <p class="title">{{ t.footer.question }}</p>
         </div>
         <div>
-            <a href="mailto: hola@scaleconfco.com" class="mail">hola@scaleconfco.com</a>
+            <a href="mailto:hola@scaleconfco.com" class="mail">hola@scaleconfco.com</a>
         </div>
     </div>
 </footer>

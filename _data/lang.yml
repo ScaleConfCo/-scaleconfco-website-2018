@@ -1,0 +1,66 @@
+en:
+    nav:
+        - ScaleConf Colombia 2017
+        - Conference Videos
+        - CFP is open
+        - Become a sponsor
+    date: April 27 - 28th 2018
+    cfp: {
+        title: Our CFP is open,
+        desc: Come to visit beautiful Colombia and<br>share your knowledge,
+        buttons: [ Apply for a talk, Apply for a lightning talk ]
+    }
+    mailing: {
+        title: 'Stay tuned, join our mailing list',
+        button: Join,
+        follow: And follow us
+    }
+    about: {
+        title: About the conference,
+        blue: 'ScaleConf Colombia is non-profit language-agnostic conference organized by volunteers to bring knowledge on scalability, distributed systems, DevOps and modern software tools to the community.',
+        first: 'Our main objetive is to level up the community’s knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow’s apps and services.',
+        second: 'Last year’s event was successful beyond our expectations, with over 350 attendees, 13 awesome speakers, 10 sponsors and 2 days of exciting talks and workshops, so ScaleConf Colombia is coming back for 2018!'
+    }
+    code: {
+        title: Code of Conduct,
+        first: 'A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.',
+        second: 'As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in ScaleConf Colombia to help us create safe and positive experiences for everyone.',
+        button: Read our Code of Conduct
+    }
+    footer: {
+        title: 'Let’s stay in touch, follow us',
+        question: 'Got any questions?'
+    }
+es:
+    nav:
+        - ScaleConf Colombia 2017
+        - Videos de la Conferencia
+        - CFP abierto
+        - Se un patrocinador
+    date: Abril 27 - 28 2018
+    cfp: {
+        title: Nuestro CFP está abierto,
+        desc: Ven a visitar la bella Colombia y<br>comparte tu conocimiento,
+        buttons: [ Aplicar a una charla, Aplicar a una charla rápida ]
+    }
+    mailing: {
+        title: 'Mantente en contacto, entra en nuestra lista de emails',
+        button: Entrar,
+        follow: Y síguenos
+    }
+    about: {
+        title: Acerca de la conferencia,
+        blue: 'ScaleConf Colombia es una conferencia sin animo de lucro, agnostica de lenguaje, organizada por voluntarios para brindar conocimiento en escalabilidad, sistemas distribuidos, DevOps y herramientas modernas de software a la comunidad.',
+        first: 'Nuestro principal objetivo es incrementar el nivel del conocimiento de la comunidad, brindando grandes conferencistas de los equipos que estan pavimentando el camino a la escalabilidad global de las aplicaciones y servicios del mañana',
+        second: 'El evento del año pasado fue un exito sobre nuestras expectativas, con más de 350 asistentes, 13 increibles conferencistas, 10 patrocinadores y 2 días de emocionantes charlas y talleres. ¡Por eso ScaleConf Colombia está de regreso para el 2018!'
+    }
+    code: {
+        title: Código de Conducta,
+        first: 'Un objetivo principal de ScaleConf Colombia es incluir a la mayor cantidad de contribuyentes, con los perfiles más variados y diversos posibles.',
+        second: 'Como tal, nos comprometemos a proporcionar un entorno amigable, seguro y acogedor para todos, independientemente de su sexo, orientación sexual, capacidad, origen étnico, nivel socioeconómico y religión (o la falta de ella). Este código de conducta describe nuestras expectativas para todos aquellos que participan en nuestra comunidad, así como también las consecuencias de un comportamiento inaceptable. Invitamos a todos los que participan en ScaleConf Colombia a que nos ayuden a crear experiencias seguras y positivas para todos.',
+        button: Lee nuestro Código de Conducta
+    }
+    footer: {
+        title: 'Estemos en contacto, síguenos',
+        question: '¿Tienes alguna pregunta?'
+    }
