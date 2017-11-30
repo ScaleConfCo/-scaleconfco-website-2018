@@ -64,6 +64,19 @@
         </div>
     </div>
 </section>
+<section id="speakers">
+    <h2 class="bold">{{ t.speakers.title }}</h2>
+    <div>
+        {% for speaker in site.data.speakers %}
+            <div class="speakersC">
+                <img src="images/speakers/{{ speaker.photo }}.png" alt="{{ speaker.twitter }}" class="speakerImg">
+                <p class="speakerName">{{ speaker.name }}</p>
+                <p class="speakerDescription">{{ speaker.description }}</p>
+                <a href="https://www.twitter.com/{{ speaker.twitter }}"><i class="icon twitter" alt="twitter"></i></a>
+            </div>
+        {% endfor %}
+    </div>
+</section>
 <section class="svg">
     {% include fig_2.svg %}
 </section>

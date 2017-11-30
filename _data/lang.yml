@@ -21,6 +21,9 @@ en:
         first: 'Our main objetive is to level up the community’s knowledge, by bringing great speakers from the teams that are paving the way for a global scale in tomorrow’s apps and services.',
         second: 'Last year’s event was successful beyond our expectations, with over 350 attendees, 13 awesome speakers, 10 sponsors and 2 days of exciting talks and workshops, so ScaleConf Colombia is coming back for 2018!'
     }
+    speakers: {
+        title: Speakers
+    }
     code: {
         title: Code of Conduct,
         first: 'A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.',
@@ -54,6 +57,8 @@ es:
         first: 'Nuestro principal objetivo es incrementar el nivel del conocimiento de la comunidad, brindando grandes conferencistas de los equipos que estan pavimentando el camino a la escalabilidad global de las aplicaciones y servicios del mañana',
         second: 'El evento del año pasado fue un exito sobre nuestras expectativas, con más de 350 asistentes, 13 increibles conferencistas, 10 patrocinadores y 2 días de emocionantes charlas y talleres. ¡Por eso ScaleConf Colombia está de regreso para el 2018!'
     }
+    speakers:
+        title: Speakers
     code: {
         title: Código de Conducta,
         first: 'Un objetivo principal de ScaleConf Colombia es incluir a la mayor cantidad de contribuyentes, con los perfiles más variados y diversos posibles.',
