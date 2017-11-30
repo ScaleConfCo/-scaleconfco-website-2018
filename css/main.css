@@ -138,6 +138,21 @@ h1 {
     margin: 0 35%;
 }
 
+#tickets {
+    margin: 0 40%;
+    margin-top: 2rem;
+    background-color: #FFF;
+    border-radius: 20px;
+    color: #1D2152;
+    padding: 0.5rem 1.5rem;
+    transition: 0.2s;
+}
+
+#tickets:hover {
+    background-color: #0099F7;
+    color: #FFF;
+}
+
 #cfp {
     background-color: #1D2152;
     color: #fff;

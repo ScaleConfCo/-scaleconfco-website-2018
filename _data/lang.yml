@@ -5,6 +5,7 @@ en:
         - CFP is open
         - Become a sponsor
     date: April 27 - 28th 2018
+    tickets: Buy your tickets
     cfp: {
         title: Our CFP is open,
         desc: Come to visit beautiful Colombia and<br>share your knowledge,
@@ -41,6 +42,7 @@ es:
         - CFP abierto
         - Se un patrocinador
     date: Abril 27 - 28 2018
+    tickets: Compra tus boletas
     cfp: {
         title: Nuestro CFP está abierto,
         desc: Ven a visitar la bella Colombia y<br>comparte tu conocimiento,
