@@ -246,9 +246,35 @@ h2:after{
     color: #555;
 }
 
-#about, #codeOfConduct, footer {
+#about, #speakers, #codeOfConduct, footer {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+#speakers > div{
+    display: flex;
+    flex-direction: row;
+}
+
+.speakersC {
+    max-width: 40%;
+    padding: 0 1.5rem;
+    text-align: center;
+
+}
+
+.speakerImg {
+    max-width: 100%;
+}
+
+.speakerName {
+    color: #0099F7;
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+}
+
+.speakerDescription {
+    height: 4.5rem;
 }
 
 #codeOfConduct h2 {
