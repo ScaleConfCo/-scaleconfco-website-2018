@@ -261,7 +261,7 @@ h2:after{
     color: #555;
 }
 
-#about, #speakers, #codeOfConduct, footer {
+#about, #speakers, #codeOfConduct, #scholarships, footer {
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -290,6 +290,14 @@ h2:after{
 
 .speakerDescription {
     height: 4.5rem;
+}
+
+#scholarships > p {
+    margin-top: 1.6rem
+}
+
+#scholarships .blueButton {
+    padding: 0.5rem 3rem;
 }
 
 #codeOfConduct h2 {
