@@ -42,6 +42,110 @@ en:
         title: 'Let’s stay in touch, follow us',
         question: 'Got any questions?'
     }
+    seeMap: See the map
+    cityGuide: {
+        title: City Guide,
+        intro: "Medellín is the second largest city in Colombia. It has over 3 million people and is the capital of the department of Antioquia. The weather in Medellín is considered to be mild, hence it is known as the 'City of everlasting spring'. Average daily temperatures are 22ºC (71ºF) , range from 15 to 30 degrees Celsius (60º-85ºF)."
+    }
+    airports: {
+        title: Airports,
+        intro: 'Medellin has two main airports - Jose Maria Cordova International Airport and Enrique Olaya Herrera Airport.',
+        jmc: {
+            description: 'The international airport (Jose Maria Cordova) is located about 29km from Medellin in Rionegro, a 45 minute car ride down a windy road.',
+            link: 'http://osm.org/go/YMhytMEx-?way=175757629'
+        },
+        eoh: {
+            description: 'The local airport (Enrique Olaya Herrera) is located within the city although only small regional flights depart/land from there.',
+            link: 'http://osm.org/go/YMhb6KVE--?relation=5423164'
+        }
+    }
+    airportsToCity: {
+        title: 'Getting from Jose Maria Cordova airport to the city',
+        taxi: 'Taxi - You will see blue and white taxis located outside the doors when you exit the airport. Although all taxis in Medellin use taxi-meters, the ride to/from the airport is fixed at $75.000COP(Approximately $28 USD) or a bit more depending on which part of the city your are going to. However, just to be on the safe side, make sure to ask the taxi driver the price before leaving the airport.',
+        colectivo: 'Colectivos (shared rides) - These are shared taxis or mini-buses also located just outside when you exit. Colectivos cost $15.000 COP per person from the airport to across from the San Diego Mall. To return, you will need to go to the same place, across from the San Diego Mall. Note: Colectivos will NOT drop you off directly at your destination. Instead they will drop you in front of San Diego Mall. We suggest taking a taxi from this point to your destination.'
+    }
+    aroundTheCity: {
+        title: 'Getting around the city',
+        uber: 'Uber - It costs the same as a taxi.',
+        taxi: {
+            intro: 'Taxi - The fastest and most convenient way is to take a taxi. These taxis are yellow and legally must charge you based on the reading on the taxi meter, so there is no need to negotiate your fare. We recommend that you get a cab by:',
+            hotel: 'Have your hotel call a taxi',
+            tappsi: {
+                name: 'Tappsi',
+                link: 'https://tappsi.co/'
+            },
+            easyTaxi: {
+                name: 'Easy Taxi',
+                link: 'http://www.easytaxi.com/co/'
+            },
+            cityTaxi: {
+                name: 'CityTaxi',
+                link: 'http://citytaxiapp.co/'
+            }
+        },
+        metro: {
+            name: Metro,
+            link: 'https://www.metrodemedellin.gov.co/',
+            intro: 'Traveling through the city is easy and quick, with the Metro system. It has 2 Metro lines (train) and is connected to 2 Metrocable lines (cable cars).',
+            mapLink: 'https://www.metrodemedellin.gov.co/Portals/1/pdf/g-mapa-esquematico.PDF.pdf?ver=2017-03-02-075732-720',
+            map: 'See Metro map',
+            buses: 'There are integrated bus routes which will drop you at a Metro station.',
+            station: 'The closest station to the conference venue is Universidad on line A, which will drop you at 5 minute walk to the venue'
+        }
+    }
+    coffe: {
+        title: 'Coffee shops and co-working spaces',
+        intro: 'The best coffeeshops and co-working spaces are located around the Poblado area, these are some you might want to check out:',
+        list: {
+            velvet: {
+                name: 'Velvet',
+                link: 'http://cafevelvet.co'
+            },
+            pergamino: {
+                name: 'Pergamino',
+                link: 'https://pergamino.com.co/'
+            },
+            juanValdez: {
+                name: 'Any Juan Valdez',
+                link: 'https://www.juanvaldezcafe.com/es-co/tiendas/'
+            },
+            laneros: {
+                name: 'Laneros',
+                link: 'https://google.com'
+            },
+            epicentro: {
+                name: 'Epicentro',
+                link: 'http://www.epicentro.com.co/'
+            },
+            atomHouse: {
+                name: 'Atom House',
+                link: 'https://atomhouse.com/'
+            }
+        }
+    }
+    venue: {
+        title: Venue,
+        first: 'The conference will be held at Complejo Ruta N, Calle 67 Nº 52-20 which is easily accessible by uber, taxi, bus and a 5 minute walk away from Universidad Metro station.',
+        second: "The are a bunch of restaurants that are part of Ruta N's complex or a short walking distance in which you will be able to find lunch.",
+        website: 'Ruta N website',
+        link: 'https://www.rutanmedellin.org',
+        map: 'See the map bigger'
+    }
+    guideHotels: {
+        title: Hotels,
+        hotelsPage: 'Check the hotels page at scaleconfco.com',
+        hotelsPageLink: '/hotels',
+        info: 'for more detailed information about our recommended hotels. You can also find some great places to stay on:',
+        booking: {
+            name: 'Booking',
+            link: 'https://www.booking.com'
+        },
+        airbnb: {
+            name: 'Airbnb',
+            link: 'https://www.airbnb.com.co/'
+        }
+    }
+
 es:
     nav:
         - ScaleConf Colombia 2017
@@ -84,4 +188,7 @@ es:
     footer: {
         title: 'Estemos en contacto, síguenos',
         question: '¿Tienes alguna pregunta?'
+    }
+    cityGuide: {
+        title: Holi
     }

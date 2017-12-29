@@ -1,0 +1,129 @@
+{% assign t = site.data.lang.[page.lang] %}
+<nav>
+    <ul>
+        <li><a href="http://2017.scaleconfco.com">{{ t.nav[0] }}</a></li>
+        <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">{{ t.nav[1] }}</a></li>
+        <li><a href="#cfp">{{ t.nav[2] }}</a></li>
+        <li><a href="#codeOfConduct">{{ t.nav[3] }}</a></li>
+        <li><a href="mailto:hola@scaleconfco.com" class="sponsorButton">{{ t.nav[4] }}</a></li>
+        <li><a href="/city-guide" class="nav-lang {% if page.lang == 'en' %}active{% endif %}">EN</a></li>
+        <li><a href="/city-guide/es/" class="nav-lang {% if page.lang == 'es' %}active{% endif %}">ES</a></li>
+    </ul>
+</nav>
+<section id="welcome">
+    <!--<img src="images/scaleconfco_2017.jpg" id="lastYearImage" alt="ScaleConfCO2017">-->
+    <div id="titleAndDate">
+        <svg viewbox="0 0 10 1.2">
+            <text x="4.93" y="0.93" text-anchor="middle" font-size="1" font-family="inherit" fill="none" stroke-width=".015" stroke="#fff">SCALECONF</text>
+            <text x="5" y="1" text-anchor="middle" font-size="1" font-family="inherit" fill="#fff">SCALECONF</text>
+        </svg>
+        <p class="colombia wCenter">COLOMBIA</p>
+        <p class="dates wCenter">{{ t.date }}</p>
+        <a href="https://ti.to/scaleconf-colombia/scaleconfco" id="tickets" class="wCenter">{{ t.tickets }}</a>
+    </div>
+</section>
+<br>
+<br>
+<section id="cityGuideIntro">
+    <h2 class="bold">{{ t.cityGuide.title }}</h2>
+    <div>
+        <p>{{ t.cityGuide.intro }}</p>
+    </div>
+</section>
+<section class="svg">
+    {% include fig_1.svg %}
+</section>
+<section id="airports">
+    <h2 class="bold">{{ t.airports.title }}</h2>
+    <p>{{ t.airports.intro }}</p>
+    <ul>
+        <li>{{ t.airports.jmc.description }} (<a href="{{ t.airports.jmc.link }}" class="guideLink">{{ t.seeMap }}</a>)</li>
+        <li>{{ t.airports.eoh.description }} (<a href="{{ t.airports.eoh.link }}" class="guideLink">{{ t.seeMap }}</a>)</li>
+    </ul>
+</section>
+<section id="airportsToCity">
+    <h2 class="bold">{{ t.airportsToCity.title }}</h2>
+    <ul>
+        <li>{{ t.airportsToCity.taxi }}</li>
+        <li>{{ t.airportsToCity.colectivo }}</li>
+    </ul>
+</section>
+<section id="aroundTheCity">
+    <h2 class="bold">{{ t.aroundTheCity.title }}</h2>
+    <ul>
+        <li>{{ t.aroundTheCity.uber }}</li>
+        <li>
+            {{ t.aroundTheCity.taxi.intro }}
+            <ul>
+                <li>{{ t.aroundTheCity.taxi.hotel }}</li>
+                <li><a href="{{ t.aroundTheCity.taxi.tappsi.link }}" class="guideLink">{{ t.aroundTheCity.taxi.tappsi.name }}</a></li>
+                <li><a href="{{ t.aroundTheCity.taxi.easyTaxi.link }}" class="guideLink">{{ t.aroundTheCity.taxi.easyTaxi.name }}</a></li>
+                <li><a href="{{ t.aroundTheCity.taxi.cityTaxi.link }}" class="guideLink">{{ t.aroundTheCity.taxi.cityTaxi.name }}</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{ t.aroundTheCity.metro.link }}" class="guideLink">{{ t.aroundTheCity.metro.name }}</a> - {{ t.aroundTheCity.metro.intro }} (<a href="t.aroundTheCity.metro.mapLink" class="guideLink">{{ t.aroundTheCity.metro.map }}</a>)
+            <ul>
+                <li>{{ t.aroundTheCity.metro.buses }}</li>
+                <li>{{ t.aroundTheCity.metro.station }}</li>
+            </ul>
+        </li>
+
+    </ul>
+</section>
+<section class="svg">
+    {% include fig_2.svg %}
+</section>
+<section id="coffe">
+    <h2 class="bold">{{ t.coffe.title }}</h2>
+    <p>{{ t.coffe.intro }}</p>
+    <ul>
+        <li><a href="{{ t.coffe.list.velvet.link }}" class="guideLink">{{ t.coffe.list.velvet.name }}</a></li>
+        <li><a href="{{ t.coffe.list.pergamino.link }}" class="guideLink">{{ t.coffe.list.pergamino.name }}</a></li>
+        <li><a href="{{ t.coffe.list.juanValdez.link }}" class="guideLink">{{ t.coffe.list.juanValdez.name }}</a></li>
+        <li><a href="{{ t.coffe.list.laneros.link }}" class="guideLink">{{ t.coffe.list.laneros.name }}</a></li>
+        <li><a href="{{ t.coffe.list.epicentro.link }}" class="guideLink">{{ t.coffe.list.epicentro.name }}</a></li>
+        <li><a href="{{ t.coffe.list.atomHouse.link }}" class="guideLink">{{ t.coffe.list.atomHouse.name }}</a></li>
+    </ul>
+</section>
+<section id="venue">
+    <h2 class="bold">{{ t.venue.title }}</h2>
+    <div>
+        <p>{{ t.venue.first }}</p>
+        <br>
+        <p>{{ t.venue.second }}</p>
+        <a href="{{ t.venue.link }}" class="guideLink">{{ t.venue.website }}</a>
+    </div>
+    <br>
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-75.57675361633302%2C6.258052483646696%2C-75.562162399292%2C6.272129966112899&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/#map=16/6.2651/-75.5695">{{ t.venue.map }}</a></small>
+    
+</section>
+<section id="guideHotels">
+    <h2 class="bold">{{ t.guideHotels.title }}</h2>
+    <p><a href="{{ t.guideHotels.hotelsPageLink }}" class="guideLink">{{ t.guideHotels.hotelsPage }}</a> {{ t.guideHotels.info }}</p>
+    <ul>
+        <li><a href="{{ t.guideHotels.booking.link }}" class="guideLink">{{ t.guideHotels.booking.name }}</a></li>
+        <li><a href="{{ t.guideHotels.airbnb.link }}" class="guideLink">{{ t.guideHotels.airbnb.name }}</a></li>
+    </ul>
+</section>
+<section class="svg">
+    {% include fig_3.svg %}
+</section>
+<footer>
+    <div>
+        <p class="title">{{ t.footer.title }}</p>
+        <div class="social">
+            <a href="https://www.facebook.com/scaleconfco/"><i class="icon facebook" alt="facebook"></i></a>
+            <a href="https://www.twitter.com/scaleconfco/"><i class="icon twitter" alt="twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="icon instagram" alt="instagram"></i></a>
+            <a href="https://www.flickr.com/photos/137671831@N08/"><i class="icon flickr" alt="flickr"></i></a>
+        </div>
+        <div>
+            <p class="title">{{ t.footer.question }}</p>
+        </div>
+        <div>
+            <a href="mailto:hola@scaleconfco.com" class="mail">hola@scaleconfco.com</a>
+        </div>
+    </div>
+</footer>
+<div class="gradient"></div>
