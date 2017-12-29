@@ -109,10 +109,6 @@ en:
                 name: 'Any Juan Valdez',
                 link: 'https://www.juanvaldezcafe.com/es-co/tiendas/'
             },
-            laneros: {
-                name: 'Laneros',
-                link: 'https://google.com'
-            },
             epicentro: {
                 name: 'Epicentro',
                 link: 'http://www.epicentro.com.co/'
@@ -120,6 +116,22 @@ en:
             atomHouse: {
                 name: 'Atom House',
                 link: 'https://atomhouse.com/'
+            },
+            globalExpress: {
+                name: 'Global Express',
+                link: 'http://www.digitalnomadsmedellin.com/global-express-modern-space-perfect-location/'
+            },
+            frendaColectivo: {
+                name: 'Frenda Colectivo',
+                link: 'http://www.digitalnomadsmedellin.com/frenda-colectivo-coworking/'
+            },
+            tinkko: {
+                name: 'Tinkko Coworking',
+                link: 'http://www.digitalnomadsmedellin.com/tinkko-coworking/'
+            },
+            nodo: {
+                name: 'Nodo Coworking',
+                link: 'https://nodo.space/'
             }
         }
     }
@@ -189,6 +201,118 @@ es:
         title: 'Estemos en contacto, síguenos',
         question: '¿Tienes alguna pregunta?'
     }
+    seeMap: Ver el mapa
     cityGuide: {
-        title: Holi
+        title: 'Guía de la ciudad',
+        intro: "Medellín es la segunda ciudad más grande de Colombia. Tiene más de 3 millones de habitantes y es la capital del departamento de Antioquia. El clima en Medellín es templado de ahí su apodo como la 'ciudad de la eterna primavera'. La temperatura diaria promedio es de 22ºC, cambia en el rango de los 15 a los 30 grados Celsius."
+    }
+    airports: {
+        title: Aeropuertos,
+        intro: 'Medellín tiene dos aeropuertos principales - el Aeropuerto Internacional Jose Maria Cordova y el Aeropuerto Enrique Olaya Herrera.',
+        jmc: {
+            description: 'El aeropuerto internacional (Jose Maria Cordova) está ubicado a 29km de Medellin, en Rionegro, a 45 minutos en automóvil por una carretera sinuosa.',
+            link: 'http://osm.org/go/YMhytMEx-?way=175757629'
+        },
+        eoh: {
+            description: 'El aeropuerto local (Enrique Olaya Herrera) está ubicado dentro de la ciudad aunque solo vuelos regionales aterrizan o despegan desde allí.',
+            link: 'http://osm.org/go/YMhb6KVE--?relation=5423164'
+        }
+    }
+    airportsToCity: {
+        title: 'Ir del aeropuerto Jose María Cordova a la ciudad',
+        taxi: 'Taxis - Afuera de la salida del aeropuerto verás taxis blancos con azul. Aunque los taxis en Medellín usan taximetro, la tarifa desde el aeropuerto es fija y cuesta $75.000COP (aprox. $28 USD) o un poco más dependiendo del lugar de la ciudad al que te dirijas. Sin embargo para estar seguro, acuerda el precio con el conductor antes de tomar el taxi.',
+        colectivo: 'Colectivos (buses pequeños) - Estos son taxis compartidos o mini-buses ubicados justo afuera de la salida del aeropuerto. El precio del colectivos es de $15.000 COP por persona desde el aeropuerto hasta el centro comercial San Diego. Para volver, tendrás que ir al mismo lugar, frente al centro comercial San Diego. Nota: Los colectivos no te llevarán directamente a tu destino. Te dejarán en frente del centro comercial San Diego. Te sugerimos tomar un taxi desde este punto hasta tu destino.'
+    }
+    aroundTheCity: {
+        title: 'Moverse en la ciudad',
+        uber: 'Uber. Tiene un costo igual a un taxi.',
+        taxi: {
+            intro: 'Taxi - La forma más fácil y cómoda de transportarse es tomando un taxi. Los taxis son amarillos y legalmente deben cobrar basado en el valor indicado por el taxímetro al finalizar el recorrido, así que no existe la necesidad de negociar la tarifa. Te recomendamos tomar un taxi de las siguientes formas:',
+            hotel: 'Pedirle al hotel llamar un taxi',
+            tappsi: {
+                name: 'Tappsi',
+                link: 'https://tappsi.co/'
+            },
+            easyTaxi: {
+                name: 'Easy Taxi',
+                link: 'http://www.easytaxi.com/co/'
+            },
+            cityTaxi: {
+                name: 'CityTaxi',
+                link: 'http://citytaxiapp.co/'
+            }
+        },
+        metro: {
+            name: Metro,
+            link: 'https://www.metrodemedellin.gov.co/',
+            intro: 'Moverse por la ciudad es fácil y rápido usando el sistema Metro. El Metro cuenta con 2 lineas de tren y está conectado a 2 lineas de Metrocable (teleférico).',
+            mapLink: 'https://www.metrodemedellin.gov.co/Portals/1/pdf/g-mapa-esquematico.PDF.pdf?ver=2017-03-02-075732-720',
+            map: 'See Metro map',
+            buses: 'Existen rutas de bus integradas que te llevarán hasta una estación del sistema Metro.',
+            station: 'La estación más cercana al lugar de la conferencia es Universidad que está ubicada en la linea A, a 5 minutos caminando al lugar en el que se realizará la conferencia.'
+        }
+    }
+    coffe: {
+        title: 'Cafés y espacios de co-working',
+        intro: 'Los cafés y espacios de co-working cercanos al área del Poblado que te pueden interesar son:',
+        list: {
+            velvet: {
+                name: 'Velvet',
+                link: 'http://cafevelvet.co'
+            },
+            pergamino: {
+                name: 'Pergamino',
+                link: 'https://pergamino.com.co/'
+            },
+            juanValdez: {
+                name: 'Any Juan Valdez',
+                link: 'https://www.juanvaldezcafe.com/es-co/tiendas/'
+            },
+            epicentro: {
+                name: 'Epicentro',
+                link: 'http://www.epicentro.com.co/'
+            },
+            atomHouse: {
+                name: 'Atom House',
+                link: 'https://atomhouse.com/'
+            },
+            globalExpress: {
+                name: 'Global Express',
+                link: 'http://www.digitalnomadsmedellin.com/global-express-modern-space-perfect-location/'
+            },
+            frendaColectivo: {
+                name: 'Frenda Colectivo',
+                link: 'http://www.digitalnomadsmedellin.com/frenda-colectivo-coworking/'
+            },
+            tinkko: {
+                name: 'Tinkko Coworking',
+                link: 'http://www.digitalnomadsmedellin.com/tinkko-coworking/'
+            },
+            nodo: {
+                name: 'Nodo Coworking',
+                link: 'https://nodo.space/'
+            }
+        }
+    }
+    venue: {
+        title: Lugar del evento,
+        first: 'La conferencia se realizará en el Complejo Ruta N, Calle 67 Nº 52-20 al cual se puede llegar fácilmente en taxi, bus o 5 minutos caminando desde la estación Universidad del sistema Metro.',
+        second: "Hay varios restaurantes que hacen parte del complejo Ruta N o quedan muy cerca caminando donde podrás encontrar buenos lugares para almorzar.",
+        website: 'Sitio web de Ruta N',
+        link: 'https://www.rutanmedellin.org',
+        map: 'Ver el mapa más grande'
+    }
+    guideHotels: {
+        title: Hoteles,
+        hotelsPage: 'Revisa nuestra página de hoteles',
+        hotelsPageLink: '/hotels',
+        info: 'para encontrar información más completa sobre los hoteles recomendados. También puedes encontrar muy buenos lugares para tu estadía en:',
+        booking: {
+            name: 'Booking',
+            link: 'https://www.booking.com'
+        },
+        airbnb: {
+            name: 'Airbnb',
+            link: 'https://www.airbnb.com.co/'
+        }
     }
