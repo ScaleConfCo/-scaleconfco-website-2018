@@ -32,6 +32,12 @@ en:
         second: 'This scholarship is open to any person that self-identifies as part of an underpresented group in technology and is looking for an opportunity to grow.',
         button: Apply
     }
+    hotelsGuide: {
+        title: 'City Guide and Hotels',
+        info: 'Do you want more information about the city or the hotels? Check out our city guide and our hotels pages.',
+        cityGuide: 'City Guide',
+        hotels: 'Hotels'
+    }
     code: {
         title: Code of Conduct,
         first: 'A primary goal of ScaleConf Colombia is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible.',
@@ -42,6 +48,126 @@ en:
         title: 'Let’s stay in touch, follow us',
         question: 'Got any questions?'
     }
+    seeMap: See the map
+    cityGuide: {
+        title: City Guide,
+        intro: "Medellín is the second largest city in Colombia. It has over 3 million people and is the capital of the department of Antioquia. The weather in Medellín is considered to be mild, hence it is known as the 'City of everlasting spring'. Average daily temperatures are 22ºC (71ºF) , range from 15 to 30 degrees Celsius (60º-85ºF)."
+    }
+    airports: {
+        title: Airports,
+        intro: 'Medellin has two main airports - Jose Maria Cordova International Airport and Enrique Olaya Herrera Airport.',
+        jmc: {
+            description: 'The international airport (Jose Maria Cordova) is located about 29km from Medellin in Rionegro, a 45 minute car ride down a windy road.',
+            link: 'http://osm.org/go/YMhytMEx-?way=175757629'
+        },
+        eoh: {
+            description: 'The local airport (Enrique Olaya Herrera) is located within the city although only small regional flights depart/land from there.',
+            link: 'http://osm.org/go/YMhb6KVE--?relation=5423164'
+        }
+    }
+    airportsToCity: {
+        title: 'Getting from Jose Maria Cordova airport to the city',
+        taxi: 'Taxi - You will see blue and white taxis located outside the doors when you exit the airport. Although all taxis in Medellin use taxi-meters, the ride to/from the airport is fixed at $75.000COP(Approximately $28 USD) or a bit more depending on which part of the city your are going to. However, just to be on the safe side, make sure to ask the taxi driver the price before leaving the airport.',
+        colectivo: 'Colectivos (shared rides) - These are shared taxis or mini-buses also located just outside when you exit. Colectivos cost $15.000 COP per person from the airport to across from the San Diego Mall. To return, you will need to go to the same place, across from the San Diego Mall. Note: Colectivos will NOT drop you off directly at your destination. Instead they will drop you in front of San Diego Mall. We suggest taking a taxi from this point to your destination.'
+    }
+    aroundTheCity: {
+        title: 'Getting around the city',
+        uber: 'Uber - It costs the same as a taxi.',
+        taxi: {
+            intro: 'Taxi - The fastest and most convenient way is to take a taxi. These taxis are yellow and legally must charge you based on the reading on the taxi meter, so there is no need to negotiate your fare. We recommend that you get a cab by:',
+            hotel: 'Have your hotel call a taxi',
+            tappsi: {
+                name: 'Tappsi',
+                link: 'https://tappsi.co/'
+            },
+            easyTaxi: {
+                name: 'Easy Taxi',
+                link: 'http://www.easytaxi.com/co/'
+            },
+            cityTaxi: {
+                name: 'CityTaxi',
+                link: 'http://citytaxiapp.co/'
+            }
+        },
+        metro: {
+            name: Metro,
+            link: 'https://www.metrodemedellin.gov.co/',
+            intro: 'Traveling through the city is easy and quick, with the Metro system. It has 2 Metro lines (train) and is connected to 2 Metrocable lines (cable cars).',
+            mapLink: 'https://www.metrodemedellin.gov.co/Portals/1/pdf/g-mapa-esquematico.PDF.pdf?ver=2017-03-02-075732-720',
+            map: 'See Metro map',
+            buses: 'There are integrated bus routes which will drop you at a Metro station.',
+            station: 'The closest station to the conference venue is Universidad on line A, which will drop you at 5 minute walk to the venue'
+        }
+    }
+    coffe: {
+        title: 'Coffee shops and co-working spaces',
+        intro: 'The best coffeeshops and co-working spaces are located around the Poblado area, these are some you might want to check out:',
+    }
+    coffeList: 
+        -   name: 'Velvet'
+            link: 'http://cafevelvet.co'
+        -   name: 'Pergamino'
+            link: 'https://pergamino.com.co/'
+        -   name: 'Any Juan Valdez'
+            link: 'https://www.juanvaldezcafe.com/es-co/tiendas/'
+        -   name: 'Epicentro'
+            link: 'http://www.epicentro.com.co/'
+        -   name: 'Atom House'
+            link: 'https://atomhouse.com/'
+        -   name: 'Global Express'
+            link: 'http://www.digitalnomadsmedellin.com/global-express-modern-space-perfect-location/'
+        -   name: 'Frenda Colectivo'
+            link: 'http://www.digitalnomadsmedellin.com/frenda-colectivo-coworking/'
+        -   name: 'Tinkko Coworking'
+            link: 'http://www.digitalnomadsmedellin.com/tinkko-coworking/'
+        -   name: 'Nodo Coworking'
+            link: 'https://nodo.space/'
+    venue: {
+        title: Venue,
+        first: 'The conference will be held at Complejo Ruta N, Calle 67 Nº 52-20 which is easily accessible by uber, taxi, bus and a 5 minute walk away from Universidad Metro station.',
+        second: "The are a bunch of restaurants that are part of Ruta N's complex or a short walking distance in which you will be able to find lunch.",
+        website: 'Ruta N website',
+        link: 'https://www.rutanmedellin.org',
+        map: 'See the map bigger'
+    }
+    guideHotels: {
+        title: Hotels,
+        hotelsPage: 'Check the hotels page at scaleconfco.com',
+        hotelsPageLink: '/hotels',
+        info: 'for more detailed information about our recommended hotels. You can also find some great places to stay on:',
+        booking: {
+            name: 'Booking',
+            link: 'https://www.booking.com'
+        },
+        airbnb: {
+            name: 'Airbnb',
+            link: 'https://www.airbnb.com.co/'
+        }
+    }
+    hotels: 
+        -   name: 'Diez Hotel'
+            image: 'diezHotel.png' 
+            address: 'Calle 10A Nº 34-11, Poblado, Medellin'
+            phone: '(+57 4) 448-1034'
+            contact: 'natalia.rios@diezhotel.com'
+            discountCode: 'scaleconfco'
+            rate: '$179,9000 COP + hotel insurance $8,330 COP + tax (aprox. $80 USD) - single occupancy'
+            note: ''
+            website: 'https://www.diezhotel.com/' 
+        -   name: 'Geo Hostel'
+            image: 'geoHostal.png' 
+            address: 'Carrera 35 8A-58, Medellín'
+            phone: '(+57 4) 311 7150'
+            contact: ' info@geohostel.com'
+            discountCode: ''
+            rate: ''
+            note: 'Geo Hostel is a 2 minutes walk to Diez Hotel'
+            website: 'http://geohostel.com'
+    hotelsInfo: {
+        first: 'Tip: If you enter Colombia with a PIP5 (tourist) entry stamp on your passport, you are exempt from paying 16% VAT (Taxes) charge on your hotel stay. You should not be charged VAT on your hotel night, and please make sure when checking in this is referenced.',
+        second: 'If you have any further hotel questions, email us at hola@scaleconfco.com. See you soon!'
+    }
+
 es:
     nav:
         - ScaleConf Colombia 2017
@@ -75,6 +201,12 @@ es:
         second: 'Estas becas están abiertas a cualquier persona que se identifique como parte de un grupo subrepresentado en tecnología y esté buscando una oportunidad para crecer.',
         button: Aplica
     }
+    hotelsGuide: {
+        title: 'Guía de la ciudad y hoteles',
+        info: '¿Quieres más información acerca de la ciudad o de los hoteles? Revisa nuestra página de guía de la ciudad y nuestra página de hoteles.',
+        cityGuide: 'Guía de la Ciudad',
+        hotels: 'Hoteles'
+    }
     code: {
         title: Código de Conducta,
         first: 'Un objetivo principal de ScaleConf Colombia es incluir a la mayor cantidad de contribuyentes, con los perfiles más variados y diversos posibles.',
@@ -84,4 +216,123 @@ es:
     footer: {
         title: 'Estemos en contacto, síguenos',
         question: '¿Tienes alguna pregunta?'
+    }
+    seeMap: Ver el mapa
+    cityGuide: {
+        title: 'Guía de la ciudad',
+        intro: "Medellín es la segunda ciudad más grande de Colombia. Tiene más de 3 millones de habitantes y es la capital del departamento de Antioquia. El clima en Medellín es templado de ahí su apodo como la 'ciudad de la eterna primavera'. La temperatura diaria promedio es de 22ºC, cambia en el rango de los 15 a los 30 grados Celsius."
+    }
+    airports: {
+        title: Aeropuertos,
+        intro: 'Medellín tiene dos aeropuertos principales - el Aeropuerto Internacional Jose Maria Cordova y el Aeropuerto Enrique Olaya Herrera.',
+        jmc: {
+            description: 'El aeropuerto internacional (Jose Maria Cordova) está ubicado a 29km de Medellin, en Rionegro, a 45 minutos en automóvil por una carretera sinuosa.',
+            link: 'http://osm.org/go/YMhytMEx-?way=175757629'
+        },
+        eoh: {
+            description: 'El aeropuerto local (Enrique Olaya Herrera) está ubicado dentro de la ciudad aunque solo vuelos regionales aterrizan o despegan desde allí.',
+            link: 'http://osm.org/go/YMhb6KVE--?relation=5423164'
+        }
+    }
+    airportsToCity: {
+        title: 'Ir del aeropuerto Jose María Cordova a la ciudad',
+        taxi: 'Taxis - Afuera de la salida del aeropuerto verás taxis blancos con azul. Aunque los taxis en Medellín usan taximetro, la tarifa desde el aeropuerto es fija y cuesta $75.000COP (aprox. $28 USD) o un poco más dependiendo del lugar de la ciudad al que te dirijas. Sin embargo para estar seguro, acuerda el precio con el conductor antes de tomar el taxi.',
+        colectivo: 'Colectivos (buses pequeños) - Estos son taxis compartidos o mini-buses ubicados justo afuera de la salida del aeropuerto. El precio del colectivos es de $15.000 COP por persona desde el aeropuerto hasta el centro comercial San Diego. Para volver, tendrás que ir al mismo lugar, frente al centro comercial San Diego. Nota: Los colectivos no te llevarán directamente a tu destino. Te dejarán en frente del centro comercial San Diego. Te sugerimos tomar un taxi desde este punto hasta tu destino.'
+    }
+    aroundTheCity: {
+        title: 'Moverse en la ciudad',
+        uber: 'Uber. Tiene un costo igual a un taxi.',
+        taxi: {
+            intro: 'Taxi - La forma más fácil y cómoda de transportarse es tomando un taxi. Los taxis son amarillos y legalmente deben cobrar basado en el valor indicado por el taxímetro al finalizar el recorrido, así que no existe la necesidad de negociar la tarifa. Te recomendamos tomar un taxi de las siguientes formas:',
+            hotel: 'Pedirle al hotel llamar un taxi',
+            tappsi: {
+                name: 'Tappsi',
+                link: 'https://tappsi.co/'
+            },
+            easyTaxi: {
+                name: 'Easy Taxi',
+                link: 'http://www.easytaxi.com/co/'
+            },
+            cityTaxi: {
+                name: 'CityTaxi',
+                link: 'http://citytaxiapp.co/'
+            }
+        },
+        metro: {
+            name: Metro,
+            link: 'https://www.metrodemedellin.gov.co/',
+            intro: 'Moverse por la ciudad es fácil y rápido usando el sistema Metro. El Metro cuenta con 2 lineas de tren y está conectado a 2 lineas de Metrocable (teleférico).',
+            mapLink: 'https://www.metrodemedellin.gov.co/Portals/1/pdf/g-mapa-esquematico.PDF.pdf?ver=2017-03-02-075732-720',
+            map: 'See Metro map',
+            buses: 'Existen rutas de bus integradas que te llevarán hasta una estación del sistema Metro.',
+            station: 'La estación más cercana al lugar de la conferencia es Universidad que está ubicada en la linea A, a 5 minutos caminando al lugar en el que se realizará la conferencia.'
+        }
+    }
+    coffe: {
+        title: 'Cafés y espacios de co-working',
+        intro: 'Los cafés y espacios de co-working cercanos al área del Poblado que te pueden interesar son:',
+    }
+    coffeList: 
+        -   name: 'Velvet'
+            link: 'http://cafevelvet.co'
+        -   name: 'Pergamino'
+            link: 'https://pergamino.com.co/'
+        -   name: 'Any Juan Valdez'
+            link: 'https://www.juanvaldezcafe.com/es-co/tiendas/'
+        -   name: 'Epicentro'
+            link: 'http://www.epicentro.com.co/'
+        -   name: 'Atom House'
+            link: 'https://atomhouse.com/'
+        -   name: 'Global Express'
+            link: 'http://www.digitalnomadsmedellin.com/global-express-modern-space-perfect-location/'
+        -   name: 'Frenda Colectivo'
+            link: 'http://www.digitalnomadsmedellin.com/frenda-colectivo-coworking/'
+        -   name: 'Tinkko Coworking'
+            link: 'http://www.digitalnomadsmedellin.com/tinkko-coworking/'
+        -   name: 'Nodo Coworking'
+            link: 'https://nodo.space/'
+    venue: {
+        title: Lugar del evento,
+        first: 'La conferencia se realizará en el Complejo Ruta N, Calle 67 Nº 52-20 al cual se puede llegar fácilmente en taxi, bus o 5 minutos caminando desde la estación Universidad del sistema Metro.',
+        second: "Hay varios restaurantes que hacen parte del complejo Ruta N o quedan muy cerca caminando donde podrás encontrar buenos lugares para almorzar.",
+        website: 'Sitio web de Ruta N',
+        link: 'https://www.rutanmedellin.org',
+        map: 'Ver el mapa más grande'
+    }
+    guideHotels: {
+        title: Hoteles,
+        hotelsPage: 'Revisa nuestra página de hoteles',
+        hotelsPageLink: '/hotels',
+        info: 'para encontrar información más completa sobre los hoteles recomendados. También puedes encontrar muy buenos lugares para tu estadía en:',
+        booking: {
+            name: 'Booking',
+            link: 'https://www.booking.com'
+        },
+        airbnb: {
+            name: 'Airbnb',
+            link: 'https://www.airbnb.com.co/'
+        }
+    }
+    hotels: 
+        -   name: 'Diez Hotel'
+            image: 'diezHotel.png' 
+            address: 'Calle 10A Nº 34-11, Poblado, Medellin'
+            phone: '(+57 4) 448-1034'
+            contact: 'natalia.rios@diezhotel.com'
+            discountCode: 'scaleconfco'
+            rate: '$179,9000 COP + seguro hotelero $8,330 COP + impuesto (aprox. $80 USD) - ocupación individual'
+            note: ''
+            website: 'https://www.diezhotel.com/' 
+        -   name: 'Geo Hostel'
+            image: 'geoHostal.png' 
+            address: 'Carrera 35 8A-58, Medellín'
+            phone: '(+57 4) 311 7150'
+            contact: ' info@geohostel.com'
+            discountCode: ''
+            rate: ''
+            note: 'Geo Hostel queda a dos minutos caminando de Diez Hotel'
+            website: 'http://geohostel.com'
+    hotelsInfo: {
+        first: 'Tip: Si tu entraste a Colombia con  un sello PIP5 (turista) en tu pasaporte, tu estás excento de pagar 16% del IVA en tu estancia en el hotel. No se te debería cobrar el IVA en la estancia en el hotel y asegúrese de que al hacer el registro esté referenciado.',
+        second: 'Si tienes más preguntas acerca del hotel, envíanos un correo electrónico a hola@scaleconfco.com. ¡Nos vemos pronto!'
     }

@@ -1,0 +1,71 @@
+{% assign t = site.data.lang.[page.lang] %}
+<nav>
+    <ul>
+        <li><a href="http://2017.scaleconfco.com">{{ t.nav[0] }}</a></li>
+        <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">{{ t.nav[1] }}</a></li>
+        <li><a href="/#cfp">{{ t.nav[2] }}</a></li>
+        <li><a href="/#codeOfConduct">{{ t.nav[3] }}</a></li>
+        <li><a href="mailto:hola@scaleconfco.com" class="sponsorButton">{{ t.nav[4] }}</a></li>
+        <li><a href="/city-guide" class="nav-lang {% if page.lang == 'en' %}active{% endif %}">EN</a></li>
+        <li><a href="/city-guide/es/" class="nav-lang {% if page.lang == 'es' %}active{% endif %}">ES</a></li>
+    </ul>
+</nav>
+<section id="welcome">
+    <!--<img src="images/scaleconfco_2017.jpg" id="lastYearImage" alt="ScaleConfCO2017">-->
+    <div id="titleAndDate">
+        <svg viewbox="0 0 10 1.2">
+            <text x="4.93" y="0.93" text-anchor="middle" font-size="1" font-family="inherit" fill="none" stroke-width=".015" stroke="#fff">SCALECONF</text>
+            <text x="5" y="1" text-anchor="middle" font-size="1" font-family="inherit" fill="#fff">SCALECONF</text>
+        </svg>
+        <p class="colombia wCenter">COLOMBIA</p>
+        <p class="dates wCenter">{{ t.date }}</p>
+        <a href="https://ti.to/scaleconf-colombia/scaleconfco" id="tickets" class="wCenter">{{ t.tickets }}</a>
+    </div>
+</section>
+<br>
+<br>
+<section id="hotels">
+    <ul>
+        {% for hotel in t.hotels %}
+            <li>
+                <img src="images/hotels/{{ hotel.image }}" alt="{{ hotel.name }}">
+                <div>
+                    <p>{{ hotel.name }}</p>
+                    <p>{{ hotel.address }}</p>
+                    <p>{{ hotel.phone }}</p>
+                    <p>{{ hotel.contact }}</p>
+                    <p>{{ hotel.discountCode }}</p>
+                    <p>{{ hotel.rate }}</p>
+                    <p>{{ hotel.note }}</p>
+                    <p>{{ hotel.description }}</p>
+                    <p>{{ hotel.website }}</p>
+                </div>
+            </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <p>{{ t.hotelsInfo.first }}</p>
+    <br>
+    <p>{{ t.hotelsInfo.second }}</p>
+</section>
+<section class="svg">
+    {% include fig_3.svg %}
+</section>
+<footer>
+    <div>
+        <p class="title">{{ t.footer.title }}</p>
+        <div class="social">
+            <a href="https://www.facebook.com/scaleconfco/"><i class="icon facebook" alt="facebook"></i></a>
+            <a href="https://www.twitter.com/scaleconfco/"><i class="icon twitter" alt="twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="icon instagram" alt="instagram"></i></a>
+            <a href="https://www.flickr.com/photos/137671831@N08/"><i class="icon flickr" alt="flickr"></i></a>
+        </div>
+        <div>
+            <p class="title">{{ t.footer.question }}</p>
+        </div>
+        <div>
+            <a href="mailto:hola@scaleconfco.com" class="mail">hola@scaleconfco.com</a>
+        </div>
+    </div>
+</footer>
+<div class="gradient"></div>

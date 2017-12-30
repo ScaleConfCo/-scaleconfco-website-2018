@@ -261,7 +261,7 @@ h2:after{
     color: #555;
 }
 
-#about, #speakers, #codeOfConduct, #scholarships, footer {
+#about, #speakers, #codeOfConduct, #scholarships, footer, #cityGuideIntro, #airports, #airportsToCity, #aroundTheCity, #coffe, #venue, #guideHotels, #hotels, #hotelsGuide {
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -425,3 +425,29 @@ section.svg .svg-footer {
     left: -4rem;
     top: -1rem;
 }
+
+.guideLink {
+    color: #1D2152;
+    text-decoration: underline;
+}
+
+.guideLink:hover {
+    color: #3DF9AD;
+    text-decoration: underline
+}
+
+#hotels li {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+}
+
+#hotels li img {
+    max-width: 21rem;
+    max-height: 21rem;
+}
+
+#hotels li div {
+    padding-left: 1rem;
+}
+
