@@ -3,8 +3,8 @@
     <ul>
         <li><a href="http://2017.scaleconfco.com">{{ t.nav[0] }}</a></li>
         <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">{{ t.nav[1] }}</a></li>
-        <li><a href="#cfp">{{ t.nav[2] }}</a></li>
-        <li><a href="#codeOfConduct">{{ t.nav[3] }}</a></li>
+        <li><a href="/#cfp">{{ t.nav[2] }}</a></li>
+        <li><a href="/#codeOfConduct">{{ t.nav[3] }}</a></li>
         <li><a href="mailto:hola@scaleconfco.com" class="sponsorButton">{{ t.nav[4] }}</a></li>
         <li><a href="/city-guide" class="nav-lang {% if page.lang == 'en' %}active{% endif %}">EN</a></li>
         <li><a href="/city-guide/es/" class="nav-lang {% if page.lang == 'es' %}active{% endif %}">ES</a></li>
@@ -78,15 +78,11 @@
     <h2 class="bold">{{ t.coffe.title }}</h2>
     <p>{{ t.coffe.intro }}</p>
     <ul>
-        <li><a href="{{ t.coffe.list.velvet.link }}" class="guideLink">{{ t.coffe.list.velvet.name }}</a></li>
-        <li><a href="{{ t.coffe.list.pergamino.link }}" class="guideLink">{{ t.coffe.list.pergamino.name }}</a></li>
-        <li><a href="{{ t.coffe.list.juanValdez.link }}" class="guideLink">{{ t.coffe.list.juanValdez.name }}</a></li>
-        <li><a href="{{ t.coffe.list.epicentro.link }}" class="guideLink">{{ t.coffe.list.epicentro.name }}</a></li>
-        <li><a href="{{ t.coffe.list.atomHouse.link }}" class="guideLink">{{ t.coffe.list.atomHouse.name }}</a></li>
-        <li><a href="{{ t.coffe.list.globalExpress.link }}" class="guideLink">{{ t.coffe.list.globalExpress.name }}</a></li>
-        <li><a href="{{ t.coffe.list.frendaColectivo.link }}" class="guideLink">{{ t.coffe.list.frendaColectivo.name }}</a></li>
-        <li><a href="{{ t.coffe.list.tinkko.link }}" class="guideLink">{{ t.coffe.list.tinkko.name }}</a></li>
-        <li><a href="{{ t.coffe.list.nodo.link }}" class="guideLink">{{ t.coffe.list.nodo.name }}</a></li>
+        {% for coffe in t.coffeList %}
+            <li>
+            <a href="{{ coffe.link }}" class="guideLink">{{ coffe.name }}</a>
+            </li>
+        {% endfor %}
     </ul>
 </section>
 <section id="venue">
