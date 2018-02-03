@@ -30,7 +30,8 @@ en:
         title: Opportunity Grant,
         first: 'We are constantly looking for ways to make the web development community more inclusive, and our opportunity grant program, which covers the cost of a full ScaleConf Colombia ticket is an important part of that effort.',
         second: 'This scholarship is open to any person that self-identifies as part of an underpresented group in technology and is looking for an opportunity to grow.',
-        button: Apply
+        button: Apply,
+        sponsor: 'Sponsor Opportunity Grant Ticket(s)'
     }
     hotelsGuide: {
         title: 'City Guide and Hotels',
@@ -199,7 +200,8 @@ es:
         title: Becas de Oportunidad,
         first: 'Constantemente estamos buscando maneras para hacer más inclusiva a la comunidad de desarrollo, y nuestro programa de becas de oportunidad, que cubre el costo de un boleto para ScaleConf Colombia, es una parte importante de esta iniciativa.',
         second: 'Estas becas están abiertas a cualquier persona que se identifique como parte de un grupo subrepresentado en tecnología y esté buscando una oportunidad para crecer.',
-        button: Aplica
+        button: Aplica,
+        sponsor: 'Patrocina boleto(s) para las Becas de Oportunidad'
     }
     hotelsGuide: {
         title: 'Guía de la ciudad y hoteles',
