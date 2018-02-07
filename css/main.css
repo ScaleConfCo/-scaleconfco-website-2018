@@ -153,29 +153,6 @@ h1 {
     color: #FFF;
 }
 
-#cfp {
-    background-color: #1D2152;
-    color: #fff;
-    padding: 1rem;
-    width:100%;
-}
-
-#cfp > * {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 1rem;
-}
-
-#cfp p {
-    font-size: 1.2rem;
-    color: #fff;
-}
-
-#cfp > div > a:first-child {
-    margin-right: 1.5rem;
-}
-
 #mailingList {
     margin-top: 3.5rem;
     display: flex;
@@ -224,10 +201,6 @@ h1 {
 .blueButton:hover {
     background-color: #3DF9AD;
     color: #fff;
-}
-
-#cfp .blueButton {
-    min-width: 15rem;
 }
 
 h2 {
