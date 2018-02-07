@@ -3,9 +3,8 @@
     <ul>
         <li><a href="http://2017.scaleconfco.com">{{ t.nav[0] }}</a></li>
         <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">{{ t.nav[1] }}</a></li>
-        <li><a href="#cfp">{{ t.nav[2] }}</a></li>
-        <li><a href="#codeOfConduct">{{ t.nav[3] }}</a></li>
-        <li><a href="mailto:hola@scaleconfco.com" class="sponsorButton">{{ t.nav[4] }}</a></li>
+        <li><a href="#codeOfConduct">{{ t.nav[2] }}</a></li>
+        <li><a href="mailto:hola@scaleconfco.com" class="sponsorButton">{{ t.nav[3] }}</a></li>
         <li><a href="/" class="nav-lang {% if page.lang == 'en' %}active{% endif %}">EN</a></li>
         <li><a href="/es/" class="nav-lang {% if page.lang == 'es' %}active{% endif %}">ES</a></li>
     </ul>
@@ -24,14 +23,6 @@
 </section>
 <section class="svg">
     {% include fig_4.svg %}
-</section>
-<section id="cfp">
-    <h3 class="bold">{{ t.cfp.title }}</h3>
-    <p>{{ t.cfp.desc }}</p>
-    <div>
-        <a href="https://www.papercall.io/scaleconfco2018" class="blueButton">{{ t.cfp.buttons.[0] }}</a>
-        <a href="https://www.papercall.io/scaleconfco2018-lightning" class="blueButton">{{ t.cfp.buttons.[1] }}</a>
-    </div>
 </section>
 <section id="mailingList">
     <div>
