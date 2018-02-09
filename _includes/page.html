@@ -1,5 +1,12 @@
 {% assign t = site.data.lang.[page.lang] %}
-<nav>
+<nav class="nav-mobile">
+    <button class="nav-toggle">
+        <span class="bar-top"></span>
+        <span class="bar-mid"></span>
+        <span class="bar-bot"></span>
+    </button>
+</nav>
+<nav class="nav">
     <ul>
         <li><a href="http://2017.scaleconfco.com">{{ t.nav[0] }}</a></li>
         <li><a href="https://www.youtube.com/channel/UCdHVlRwYfuwimfN93OX7JQQ/videos">{{ t.nav[1] }}</a></li>
@@ -28,9 +35,9 @@
     <div>
         <p class="title">{{ t.mailing.title }}</p>
         <form action="//scaleconfco.us13.list-manage.com/subscribe/post?u=5e496acbac5eeec4a22312bd0&amp;id=96c6dc44ae" method="post">
-          <input type="email" name="EMAIL" placeholder="" class="emailInput formEmail"
-          />
-          <input type="submit" value="{{ t.mailing.button }}" class="emailSubscribe blueButton formButton"/>
+            <input type="email" name="EMAIL" placeholder="" class="emailInput formEmail"
+            />
+            <input type="submit" value="{{ t.mailing.button }}" class="emailSubscribe blueButton formButton"/>
         </form>
         <p class="title">{{ t.mailing.follow }}</p>
         <div class="social">
@@ -61,12 +68,12 @@
     <h2 class="bold">{{ t.speakers.title }}</h2>
     <div>
         {% for speaker in site.data.speakers %}
-            <div class="speakersC">
-                <img src="images/speakers/{{ speaker.photo }}.png" alt="{{ speaker.twitter }}" class="speakerImg">
-                <p class="speakerName">{{ speaker.name }}</p>
-                <p class="speakerDescription">{{ speaker.description }}</p>
-                <a href="https://www.twitter.com/{{ speaker.twitter }}"><i class="icon twitter" alt="twitter"></i></a>
-            </div>
+        <div class="speakersC">
+            <img src="images/speakers/{{ speaker.photo }}.png" alt="{{ speaker.twitter }}" class="speakerImg">
+            <p class="speakerName">{{ speaker.name }}</p>
+            <p class="speakerDescription">{{ speaker.description }}</p>
+            <a href="https://www.twitter.com/{{ speaker.twitter }}"><i class="icon twitter" alt="twitter"></i></a>
+        </div>
         {% endfor %}
     </div>
 </section>
@@ -125,3 +132,13 @@
     </div>
 </footer>
 <div class="gradient"></div>
+<script>
+    (function () {
+        var nav_toggle = document.querySelector('.nav-toggle');
+        var nav = document.querySelector('.nav');
+        nav_toggle.addEventListener('click', function(e) {
+            this.classList.toggle('opened');
+            nav.classList.toggle('show');
+        });
+    })();
+</script>
