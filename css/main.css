@@ -293,7 +293,7 @@ h2:after{
 }
 
 .speakerDescription {
-    height: 4.5rem;
+    min-height: 4.5rem;
 }
 
 #scholarships > p {
@@ -529,14 +529,18 @@ section.svg .svg-footer {
     }
     
     section#speakers .speakersC {
-        flex-basis: 25%;
+        flex-basis: 33.33%;
         max-width: 33.33%;
         margin: 0 auto;
         padding-bottom: 2rem;
     }
+    section#speakers .speakersC .speakerDescription {
+        min-height: 6.5rem;
+    }
 }
 @media screen and (max-width: 500px) {
     section#speakers .speakersC {
+        flex-basis: 100%;
         max-width: 50%;
     }
     #titleAndDate .dates {
@@ -552,7 +556,11 @@ section.svg .svg-footer {
         height: 10rem;
     }
     section#speakers .speakersC {
-        max-width: 50%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    section#speakers .speakersC .speakerDescription {
+        min-height: 2rem;
     }
     #titleAndDate .colombia {
         font-size: 2rem;
