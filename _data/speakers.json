@@ -25,8 +25,80 @@
     },
     {
         "name": "Elizabeth Ramirez",
-        "description": "Computational Engineer @ Descartes Labs. ",
+        "description": "Computational Engineer @ Descartes Labs",
         "twitter": "eramirem",
         "photo": "elizabeth"
+    },
+    {
+        "name": "Andrew Turley",
+        "description": "Software Engineer @ Wallaroo Labs",
+        "twitter": "casio_juarez",
+        "photo": ""
+    },
+    {
+        "name": "Caleb Thompson",
+        "description": "Support Engineer @ Heroku",
+        "twitter": "calebthompson",
+        "photo": ""
+    },
+    {
+        "name": "Aysylu Greenberg",
+        "description": "Software Engineer @ Google",
+        "twitter": "aysylu22",
+        "photo": ""
+    },
+    {
+        "name": "Seth Vargo",
+        "description": "Developer Advocate @ Google Cloud",
+        "twitter": "sethvargo",
+        "photo": ""
+    },
+    {
+        "name": "David Greenberg",
+        "description": "Software Developer @ Amazon Advertising",
+        "twitter": "dgrnbrg",
+        "photo": ""
+    },
+    {
+        "name": "Miguel Palhas",
+        "description": "Software Developer @ Subvisual",
+        "twitter": "naps62",
+        "photo": ""
+    },
+    {
+        "name": "Raul Pino",
+        "description": "Data Engineering Lead @ uBiome",
+        "twitter": "p1nox",
+        "photo": ""
+    },
+    {
+        "name": "Sebastian Sogamoso",
+        "description": "Software engineer @ Cookpad",
+        "twitter": "sebasoga",
+        "photo": ""
+    },
+    {
+        "name": "Asya Shklyar",
+        "description": "Director of HPC @ Pomona College",
+        "twitter": "hedgehogy",
+        "photo": ""
+    },
+    {
+        "name": "Didier Tabares",
+        "description": "Software Developer @ PSL",
+        "twitter": "dialtahi",
+        "photo": ""
+    },
+    {
+        "name": "Alvaro Videla",
+        "description": "Lead Architect @ Migros-Genossenschafts-Bund",
+        "twitter": "old_sound",
+        "photo": ""
+    },
+    {
+        "name": "Catherin Cruz",
+        "description": "Senior Developer @ Velocity Partners",
+        "twitter": "UserTwoGG",
+        "photo": ""
     }
 ]
