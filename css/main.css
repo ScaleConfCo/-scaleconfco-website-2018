@@ -273,14 +273,14 @@ h2:after{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .speakersC {
     max-width: 40%;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     text-align: center;
-    flex: 1;
-    flex-basis: 20%;
+    flex: 0 0 20%;
 }
 
 .speakersC a.speakerTwitter {
@@ -297,10 +297,11 @@ h2:after{
     color: #0099F7;
     font-size: 1.1rem;
     margin-top: 0.2rem;
+    display: inline-flex;
 }
 
 .speakerDescription {
-    min-height: 4.5rem;
+    min-height: 4rem;
 }
 
 #scholarships > p {
