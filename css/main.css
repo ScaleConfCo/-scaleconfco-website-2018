@@ -462,6 +462,85 @@ section.svg .svg-footer {
     padding-left: 1rem;
 }
 
+#agenda {
+    background-color: #1D2152;
+    color: #fff;
+    margin-bottom: 7%;
+    padding: 7% 10%;
+    width: 100%;
+}
+#agenda h2.bold {
+    color: #fff;
+}
+#agenda h2.bold:after {
+    border-bottom-color: #fff;
+    left: 10%;
+}
+#agenda hr {
+    background-color: #3DF9AD;
+    height: 2px;
+}
+#agenda .lists {
+    display: flex;
+}
+#agenda .lists .daylist {
+    min-width: 50%;
+    text-transform: uppercase;
+}
+#agenda .lists .daylist .daytitle {
+    color: #3DF9AD;
+    font-size: 1.8rem;
+    line-height: 1rem;
+}
+#agenda .lists ul {
+    position: relative;
+    list-style: none;
+}
+#agenda .lists ul:before {
+    content: "";
+    background-color: #3DF9AD;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    width: 2px;
+    left: 1rem;
+}
+#agenda .lists ul li {
+    padding-bottom: 1.8rem;
+}
+#agenda .lists ul li:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3DF9AD;
+    left: 7px;
+}
+#agenda .lists ul li.track .trackhour {
+    color: #3DF9AD;
+    line-height: 1.2rem;
+}
+#agenda .lists ul li.track .tracktitle {
+    color: #3DF9AD;
+    padding-top: 0.8rem;
+}
+#agenda .lists ul li.track .trackspeaker {
+    color: #3DF9AD;
+    padding: 0.5rem 0;
+}
+#agenda .lists ul li.track .trackabstract {
+    color: #fff;
+    font-size: 1rem;
+}
+#agenda .lists ul li.track a {
+    color: #3DF9AD;
+}
+#agenda .lists p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
 /*   Responsive Media Queries   */
 @media screen and (max-width: 768px) {
     nav.nav {

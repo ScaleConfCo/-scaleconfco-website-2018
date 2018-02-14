@@ -1,0 +1,39 @@
+<section id="agenda">
+    <h2 class="bold">{{ t.agenda.title }}</h2>
+    <div class="lists">
+        <div class="daylist">
+            <p class="daytitle">{{ t.agenda.fday }}</p>
+            <p class="daydate">{{ t.agenda.fdate }}</p>
+        </div>
+        <div class="daylist">
+            <p class="daytitle">{{ t.agenda.sday }}</p>
+            <p class="daydate">{{ t.agenda.sdate }}</p>
+        </div>
+    </div>
+    <hr>
+    <div class="lists">
+        {% for day in site.data.agenda %}
+            <ul>
+                {% for track in day.tracks %}
+                    <li class="track">
+                        <p class="trackhour">{{ track.hour }}</p>
+                        <p class="tracktitle">{{ track.title }}</p>
+                        {% if track.speaker %}
+                            <p class="trackspeaker">{{ track.speaker }} ({{ track.business }})</p>
+                        {% endif %}
+                        {% if track.abstract %}
+                            <div class="trackshowmore trackexcerpt">
+                                <p class="trackabstract">{{ track.abstract | truncatewords: 15 }}</p>
+                                <a href="javascript:showMore()">{{ t.showmore }}</a>
+                            </div>
+                            <div class="trackshowless trackcontent">
+                                <p class="trackabstract">{{ track.abstract }}</p>
+                                <a href="javascript:showMore()">{{ t.showless }}</a>
+                            </div>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+</section>

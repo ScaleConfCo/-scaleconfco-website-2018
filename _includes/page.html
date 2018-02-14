@@ -77,6 +77,7 @@
         {% endfor %}
     </div>
 </section>
+{% include agenda.html %}
 <section id="scholarships">
     <h2 class="bold">{{ t.scholarships.title }}</h2>
     <div>
@@ -141,4 +142,8 @@
             nav.classList.toggle('show');
         });
     })();
+
+    function showMore() {
+        //
+    }
 </script>
