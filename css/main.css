@@ -497,6 +497,7 @@ section.svg .svg-footer {
 #agenda .lists ul {
     position: relative;
     list-style: none;
+    max-width: 50%;
 }
 #agenda .lists ul:before {
     content: "";
@@ -625,6 +626,9 @@ section.svg .svg-footer {
     }
     section#speakers .speakersC .speakerDescription {
         min-height: 6.5rem;
+    }
+    #agenda .lists ul {
+        max-width: unset;
     }
 }
 @media screen and (max-width: 500px) {
