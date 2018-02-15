@@ -538,6 +538,7 @@ section.svg .svg-footer {
 }
 #agenda .lists ul li.track a {
     color: #3DF9AD;
+    cursor: pointer;
 }
 #agenda .lists p {
     font-size: 1.2rem;
