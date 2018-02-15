@@ -1,0 +1,39 @@
+<section id="agenda">
+    <h2 class="bold">{{ t.agenda.title }}</h2>
+    <div class="lists">
+        <div class="daylist">
+            <p class="daytitle">{{ t.agenda.fday }}</p>
+            <p class="daydate">{{ t.agenda.fdate }}</p>
+        </div>
+        <div class="daylist">
+            <p class="daytitle">{{ t.agenda.sday }}</p>
+            <p class="daydate">{{ t.agenda.sdate }}</p>
+        </div>
+    </div>
+    <hr>
+    <div class="lists">
+        {% for day in site.data.agenda %}
+            <ul>
+                {% for track in day.tracks %}
+                    <li class="track">
+                        <p class="trackhour">{{ track.hour }}</p>
+                        <p class="tracktitle">{{ track.title }}</p>
+                        {% if track.speaker %}
+                            <p class="trackspeaker">{{ track.speaker }} ({{ track.business }})</p>
+                        {% endif %}
+                        {% if track.abstract %}
+                            <div class="trackshowmore trackexcerpt" id="shortDescription{{ track.twitter }}">
+                                <p class="trackabstract">{{ track.abstract | truncatewords: 15 }}</p>
+                                <a onclick="showMore('shortDescription{{ track.twitter }}', 'longDescription{{ track.twitter }}')">{{ t.showmore }}</a>
+                            </div>
+                            <div class="trackshowless trackcontent" id="longDescription{{ track.twitter }}" style="display: none;">
+                                <p class="trackabstract">{{ track.abstract }}</p>
+                                <a onclick="showLess('longDescription{{ track.twitter }}', 'shortDescription{{ track.twitter }}')">{{ t.showless }}</a>
+                            </div>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+</section>

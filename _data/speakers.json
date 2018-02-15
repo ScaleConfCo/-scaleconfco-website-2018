@@ -25,8 +25,80 @@
     },
     {
         "name": "Elizabeth Ramirez",
-        "description": "Computational Engineer @ Descartes Labs. ",
+        "description": "Computational Engineer @ Descartes Labs",
         "twitter": "eramirem",
         "photo": "elizabeth"
+    },
+    {
+        "name": "Didier Tabares",
+        "description": "Software Developer @ PSL",
+        "twitter": "dialtahi",
+        "photo": "didier"
+    },
+    {
+        "name": "Andrew Turley",
+        "description": "Software Engineer @ Wallaroo Labs",
+        "twitter": "casio_juarez",
+        "photo": "turley"
+    },
+    {
+        "name": "Aysylu Greenberg",
+        "description": "Software Engineer @ Google",
+        "twitter": "aysylu22",
+        "photo": "aysylu"
+    },
+    {
+        "name": "Caleb Thompson",
+        "description": "Support Engineer @ Heroku",
+        "twitter": "calebthompson",
+        "photo": "caleb"
+    },
+    {
+        "name": "Miguel Palhas",
+        "description": "Software Developer @ Subvisual",
+        "twitter": "naps62",
+        "photo": "miguel"
+    },
+    {
+        "name": "Catherin Cruz",
+        "description": "Senior Developer @ Velocity Partners",
+        "twitter": "UserTwoGG",
+        "photo": "catherin"
+    },
+    {
+        "name": "Raul Pino",
+        "description": "Data Engineering Lead @ uBiome",
+        "twitter": "p1nox",
+        "photo": "raul"
+    },
+    {
+        "name": "Sebastian Sogamoso",
+        "description": "Software engineer @ Cookpad",
+        "twitter": "sebasoga",
+        "photo": "sebastian"
+    },
+    {
+        "name": "Asya Shklyar",
+        "description": "Director of HPC @ Pomona College",
+        "twitter": "hedgehogy",
+        "photo": "asya"
+    },
+    {
+        "name": "David Greenberg",
+        "description": "Software Developer @ Amazon Advertising",
+        "twitter": "dgrnbrg",
+        "photo": "david"
+    },
+    {
+        "name": "Seth Vargo",
+        "description": "Developer Advocate @ Google Cloud",
+        "twitter": "sethvargo",
+        "photo": "seth"
+    },
+    {
+        "name": "Alvaro Videla",
+        "description": "Lead Architect @ Migros-Genossenschafts-Bund",
+        "twitter": "old_sound",
+        "photo": "alvaro"
     }
 ]
