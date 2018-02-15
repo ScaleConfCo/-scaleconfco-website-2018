@@ -30,6 +30,12 @@
         "photo": "elizabeth"
     },
     {
+        "name": "Didier Tabares",
+        "description": "Software Developer @ PSL",
+        "twitter": "dialtahi",
+        "photo": ""
+    },
+    {
         "name": "Andrew Turley",
         "description": "Software Engineer @ Wallaroo Labs",
         "twitter": "casio_juarez",
@@ -51,6 +57,12 @@
         "name": "Seth Vargo",
         "description": "Developer Advocate @ Google Cloud",
         "twitter": "sethvargo",
+        "photo": ""
+    },
+    {
+        "name": "Catherin Cruz",
+        "description": "Senior Developer @ Velocity Partners",
+        "twitter": "UserTwoGG",
         "photo": ""
     },
     {
@@ -84,21 +96,9 @@
         "photo": ""
     },
     {
-        "name": "Didier Tabares",
-        "description": "Software Developer @ PSL",
-        "twitter": "dialtahi",
-        "photo": ""
-    },
-    {
         "name": "Alvaro Videla",
         "description": "Lead Architect @ Migros-Genossenschafts-Bund",
         "twitter": "old_sound",
-        "photo": ""
-    },
-    {
-        "name": "Catherin Cruz",
-        "description": "Senior Developer @ Velocity Partners",
-        "twitter": "UserTwoGG",
         "photo": ""
     }
 ]

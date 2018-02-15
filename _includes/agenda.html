@@ -22,13 +22,13 @@
                             <p class="trackspeaker">{{ track.speaker }} ({{ track.business }})</p>
                         {% endif %}
                         {% if track.abstract %}
-                            <div class="trackshowmore trackexcerpt">
+                            <div class="trackshowmore trackexcerpt" id="shortDescription{{ track.twitter }}">
                                 <p class="trackabstract">{{ track.abstract | truncatewords: 15 }}</p>
-                                <a href="javascript:showMore()">{{ t.showmore }}</a>
+                                <a onclick="showMore('shortDescription{{ track.twitter }}', 'longDescription{{ track.twitter }}')">{{ t.showmore }}</a>
                             </div>
-                            <div class="trackshowless trackcontent">
+                            <div class="trackshowless trackcontent" id="longDescription{{ track.twitter }}" style="display: none;">
                                 <p class="trackabstract">{{ track.abstract }}</p>
-                                <a href="javascript:showMore()">{{ t.showless }}</a>
+                                <a onclick="showLess('longDescription{{ track.twitter }}', 'shortDescription{{ track.twitter }}')">{{ t.showless }}</a>
                             </div>
                         {% endif %}
                     </li>

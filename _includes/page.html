@@ -143,7 +143,12 @@
         });
     })();
 
-    function showMore() {
-        //
+    function showMore(selfId, id) {
+        document.getElementById(selfId).style.display = "none";
+        document.getElementById(id).style.display = "block";
+    }
+    function showLess(selfId, id) {
+        document.getElementById(selfId).style.display = "none";
+        document.getElementById(id).style.display = "block";
     }
 </script>

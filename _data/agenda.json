@@ -15,14 +15,16 @@
                 "hour": "9:50 AM",
                 "title": "",
                 "speaker": "Vaidehi Joshi",
-                "business": "tilde.io"
+                "business": "tilde.io",
+                "twitter": "vaidehijoshi"
             },
             {
                 "hour": "10:25 AM",
                 "title": "An Uncoordinated Approach To Scaling (Almost) Infinitely",
                 "speaker": "Andrew Turley",
                 "business": "Wallaroo Labs",
-                "abstract": "Scaling distributed applications becomes difficult because of the overhead of coordinating state across workers. But what if we designed systems to avoid coordination in the first place? This talk covers how to do this and what properties we could expect from such a system."
+                "abstract": "Scaling distributed applications becomes difficult because of the overhead of coordinating state across workers. But what if we designed systems to avoid coordination in the first place? This talk covers how to do this and what properties we could expect from such a system.",
+                "twitter": "casio_juarez"
             },
             {
                 "hour": "11:00 AM",
@@ -33,14 +35,16 @@
                 "title": "Learning AI with Van Gogh, Botero and Cruz-Diez",
                 "speaker": "Raul Pino",
                 "business": "uBiome",
-                "abstract": "Every time somebody mention AI news in the office, you wonder on the glorious future beyond your daily data taming or pipelines monitoring. In this talk you will be introduced to Neural Networks applied to arts, using a paper \"A Neural Algorithm of Artistic Style\" as a \"deep\" start."
+                "abstract": "Every time somebody mention AI news in the office, you wonder on the glorious future beyond your daily data taming or pipelines monitoring. In this talk you will be introduced to Neural Networks applied to arts, using a paper \"A Neural Algorithm of Artistic Style\" as a \"deep\" start.",
+                "twitter": "p1nox"
             },
             {
                 "hour": "12:00 PM",
                 "title": "Building an HPC infrastructure at a Liberal Arts College",
                 "speaker": "Asya Shklyar",
                 "business": "Pomona College",
-                "abstract": "This talk aims to describe the process of design, prototyping, and building the HPC infrastructure at Pomona College in Claremont, CA, employing the best practices in building HPC, hybrid, and cloud infrastructure and adjusting to the unique needs of a higher ed environment."
+                "abstract": "This talk aims to describe the process of design, prototyping, and building the HPC infrastructure at Pomona College in Claremont, CA, employing the best practices in building HPC, hybrid, and cloud infrastructure and adjusting to the unique needs of a higher ed environment.",
+                "twitter": "hedgehogy"
             },
             {
                 "hour": "12:35 PM",
@@ -55,7 +59,8 @@
                 "title": "Don't Get Distracted",
                 "speaker": "Caleb Thompson",
                 "business": "Heroku",
-                "abstract": "I worked on a WiFi geolocation app for a DoD contractor. When I realized its use was to track down and kill people, I was faced with a moral dilemma. I'll share the technical details of the app that made it so interesting to me & discuss the ethics of building tools without understanding their use."
+                "abstract": "I worked on a WiFi geolocation app for a DoD contractor. When I realized its use was to track down and kill people, I was faced with a moral dilemma. I'll share the technical details of the app that made it so interesting to me & discuss the ethics of building tools without understanding their use.",
+                "twitter": "calebthompson"
             },
             {
                 "hour": "2:50 PM",
@@ -77,14 +82,16 @@
                 "title": "Modern Security with Microservices and the Cloud",
                 "speaker": "Seth Vargo",
                 "business": "Google Cloud",
-                "abstract": "It’s great that you’ve moved to microservices, but how are you distributing secrets? This talk offers an overview of Vault’s unique approach to secret management by providing secrets as a service for services (and humans), that is highly scalable and easily customizable to fit any environment."
+                "abstract": "It’s great that you’ve moved to microservices, but how are you distributing secrets? This talk offers an overview of Vault’s unique approach to secret management by providing secrets as a service for services (and humans), that is highly scalable and easily customizable to fit any environment.",
+                "twitter": "sethvargo"
             },
             {
                 "hour": "4:55 PM",
                 "title": "Operaciones Matriciales a Gran Escala",
                 "speaker": "Elizabeth Ramirez",
                 "business": "Descartes Labs",
-                "abstract": "Las estructuras matriciales (o tensoriales)  son fundamentales en un gran número de aplicaciones en Computación Científica y Machine Learning, donde los datos son representados de manera n-dimensional, inducidos por la discretización de funciones multivariable y/o mediciones de multiples propiedades de un sistema observado. En Deep Learning, por ejemplo, en cada capa de una red neuronal se realizan transformaciones sobre dichas estructuras para encontrar mejores representaciones. Sin embargo, las estructuras matriciales sufren del llamado “curse of dimensionality”, lo cual resalta la importancia de contar con algoritmos altamente eficientes para ejecutar operaciones comunes, como solución de sistemas lineales, problemas de eigenvalues y optimización. Esta presentación estará enfocada desde el punto de vista de computación numérica en los métodos usados para la representación óptima de estructuras matriciales, así como librerías y hardware diseñados para ejecutar operaciones matriciales a gran escala."
+                "abstract": "Las estructuras matriciales (o tensoriales)  son fundamentales en un gran número de aplicaciones en Computación Científica y Machine Learning, donde los datos son representados de manera n-dimensional, inducidos por la discretización de funciones multivariable y/o mediciones de multiples propiedades de un sistema observado. En Deep Learning, por ejemplo, en cada capa de una red neuronal se realizan transformaciones sobre dichas estructuras para encontrar mejores representaciones. Sin embargo, las estructuras matriciales sufren del llamado “curse of dimensionality”, lo cual resalta la importancia de contar con algoritmos altamente eficientes para ejecutar operaciones comunes, como solución de sistemas lineales, problemas de eigenvalues y optimización. Esta presentación estará enfocada desde el punto de vista de computación numérica en los métodos usados para la representación óptima de estructuras matriciales, así como librerías y hardware diseñados para ejecutar operaciones matriciales a gran escala.",
+                "twitter": "eramirem"
             },
             {
                 "hour": "5:30 PM",
@@ -117,13 +124,15 @@
                 "title": "What We Talk About When We Talk About Disk IO",
                 "speaker": "Alex Petrov",
                 "business": "Datastax",
-                "abstract": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data."
+                "abstract": "In the world of Big Data, it’s important to know how the Database Storage works in order to be able to pick a right tool right job. The talk covers evaluation techniques, to choose storage with best read, write or memory overhead, best suitable for your data.",
+                "twitter": "ifesdjeen"
             },
             {
                 "hour": "11:25 AM",
                 "title": "",
                 "speaker": "Alvaro Videla",
-                "business": "Migros-Genossenschafts-Bund"
+                "business": "Migros-Genossenschafts-Bund",
+                "twitter": "old_sound"
             },
             {
                 "hour": "11:00 AM",
@@ -134,14 +143,16 @@
                 "title": "Zero Downtime Migrations at Scale",
                 "speaker": "Aysylu Greenberg",
                 "business": "Google",
-                "abstract": "Already have a system that serves user traffic and it has become so popular that it's hitting scaling limitations? It's probably time to upgrade its architecture or move its data to a more scalable database. Learn how to do this upgrade with zero downtime and no user visible effects in my talk!"
+                "abstract": "Already have a system that serves user traffic and it has become so popular that it's hitting scaling limitations? It's probably time to upgrade its architecture or move its data to a more scalable database. Learn how to do this upgrade with zero downtime and no user visible effects in my talk!",
+                "twitter": "aysylu22"
             },
             {
                 "hour": "12:00 PM",
                 "title": "Reactive Microservices",
                 "speaker": "Didier Tabares",
                 "business": "PSL",
-                "abstract": "Within a microservices architecture, what does it take to build a highly responsive system, vastly improve the user experience and ensure fail resilience? By applying reactive principles and patterns, of course. Learn how to respond to the needs of today while anticipating the demands of tomorrow."
+                "abstract": "Within a microservices architecture, what does it take to build a highly responsive system, vastly improve the user experience and ensure fail resilience? By applying reactive principles and patterns, of course. Learn how to respond to the needs of today while anticipating the demands of tomorrow.",
+                "twitter": "dialtahi"
             },
             {
                 "hour": "12:35 PM",
@@ -156,21 +167,24 @@
                 "title": "The overnight failure",
                 "speaker": "Sebastian Sogamoso",
                 "business": "Cookpad",
-                "abstract": "This talk is based on a true story. Imagine the worst thing that could happen to you at work. For me, that was charging users thousands of times the amount they should have been charged and it happened. Did someone get fired? Did the company survive? Come to the talk and find out."
+                "abstract": "This talk is based on a true story. Imagine the worst thing that could happen to you at work. For me, that was charging users thousands of times the amount they should have been charged and it happened. Did someone get fired? Did the company survive? Come to the talk and find out.",
+                "twitter": "sebasoga"
             },
             {
                 "hour": "2:50 PM",
                 "title": "An Introduction to Smart Contracts",
                 "speaker": "Miguel Palhas",
                 "business": "Subvisual",
-                "abstract": "Let's talk blockchain! But not the whole money thing. Smart Contracts are the real juice. I will walk you through what a Smart Contract is and why you should care. We will discuss how they differ from traditional computing methods, and what makes this so revolutionary."
+                "abstract": "Let's talk blockchain! But not the whole money thing. Smart Contracts are the real juice. I will walk you through what a Smart Contract is and why you should care. We will discuss how they differ from traditional computing methods, and what makes this so revolutionary.",
+                "twitter": "naps62"
             },
             {
                 "hour": "3:25 PM",
                 "title": "Kubernetes For Beginners: An intro to the magic of containers orchestration",
                 "speaker": "Catherin Cruz",
                 "business": "Velocity Partners",
-                "abstract": "Have you tried to figure out what is Kubernetes and how it works? Yes, it’s a bit challenging and sometimes just plain magic. What about starting from knowing the power of its components, its deploys spells, and then get the wizard best practices. Here is an intro to the magical world of Kubernetes!"
+                "abstract": "Have you tried to figure out what is Kubernetes and how it works? Yes, it’s a bit challenging and sometimes just plain magic. What about starting from knowing the power of its components, its deploys spells, and then get the wizard best practices. Here is an intro to the magical world of Kubernetes!",
+                "twitter": "UserTwoGG"
             },
             {
                 "hour": "4:00 PM",
@@ -180,13 +194,15 @@
                 "hour": "4:20 PM",
                 "title": "",
                 "speaker": "Diptanu Choudhury",
-                "business": "Facebook"
+                "business": "Facebook",
+                "twitter": "diptanu"
             },
             {
                 "hour": "4:55 PM",
                 "title": "",
                 "speaker": "Veronica Lopez",
-                "business": "CoreOS"
+                "business": "CoreOS",
+                "twitter": "maria_fibonacci"
             },
             {
                 "hour": "5:30 PM",
