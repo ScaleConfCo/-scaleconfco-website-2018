@@ -1,0 +1,57 @@
+[
+    {
+        "gold": [
+            {
+                "name": "Get on Board",
+                "website": "https://www.getonbrd.com/",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "rutaN",
+                "website": "https://www.rutanmedellin.org",
+                "image": "",
+                "description": ""
+            }
+        ],
+        
+        "silver": [
+            {
+                "name": "Todo1",
+                "website": "https://www.todo1services.com/",
+                "image": "",
+                "description": ""
+            }
+        ],
+
+        "bronze": [
+            {
+                "name": "Seven4n",
+                "website": "http://s4n.co/",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "Huge",
+                "website": "https://www.hugeinc.com/",
+                "image": "",
+                "description": ""
+            }
+        ],
+
+        "Travel sponsor which are most likely Bronze (fix this category (add them to bronze(?)) or change this name)": [
+            {
+                "name": "Google Cloud",
+                "website": "https://cloud.google.com",
+                "image": "",
+                "description": ""
+            },
+            {
+                "name": "uBiome",
+                "website": "https://ubiome.com/",
+                "image": "",
+                "description": ""
+            }
+        ]
+    }
+]

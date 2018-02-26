@@ -100,5 +100,21 @@
         "description": "Former Core Dev @ RabbitMQ",
         "twitter": "old_sound",
         "photo": "alvaro"
+    },
+    {
+        "name": "Maria Camila Gomez",
+        "description": "Software Developer @ Experimentality SAS",
+        "twitter": "camigomez318",
+        "photo": "camila"
+    },
+    {
+        "name": "Sergio Villegas",
+        "description": "Data Scientist @ Easy Solutions Inc",
+        "photo": "sergio"
+    },
+    {
+        "name": "Julián Forero",
+        "description": "DevOps Engineer @ Endava",
+        "photo": "julian"
     }
 ]
