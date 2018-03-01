@@ -108,6 +108,11 @@
         "photo": "camila"
     },
     {
+        "name": "Sergio Villegas",
+        "description": "Data Scientist @ Easy Solutions Inc",
+        "photo": "sergio"
+    },
+    {
         "name": "Julián Forero",
         "description": "DevOps Engineer @ Endava",
         "photo": "julian"
