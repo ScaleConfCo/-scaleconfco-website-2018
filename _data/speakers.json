@@ -110,11 +110,13 @@
     {
         "name": "Sergio Villegas",
         "description": "Data Scientist @ Easy Solutions Inc",
+        "twitter": "scaleconfco",
         "photo": "sergio"
     },
     {
         "name": "Julián Forero",
         "description": "DevOps Engineer @ Endava",
+        "twitter": "scaleconfco",
         "photo": "julian"
     }
 ]
