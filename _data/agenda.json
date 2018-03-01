@@ -64,26 +64,38 @@
             },
             {
                 "hour": "2:50 PM",
-                "title": "Lightning talks"
+                "title": "Reactive Microservices",
+                "speaker": "Didier Tabares",
+                "business": "PSL",
+                "abstract": "Within a microservices architecture, what does it take to build a highly responsive system, vastly improve the user experience and ensure fail resilience? By applying reactive principles and patterns, of course. Learn how to respond to the needs of today while anticipating the demands of tomorrow.",
+                "twitter": "dialtahi"
             },
             {
                 "hour": "3:25 PM",
+                "title": "Coffee / Snack Break"
+            },
+            {
+                "hour": "3:45 PM",
+                "title": "",
+                "speaker": "Little engineers",
+                "business": "",
+                "abstract": ""
+            },
+            {
+                "hour": "4:05 PM",
+                "title": "Attacking yourself is healthy",
+                "speaker": "Julián Forero",
+                "business": "Endava",
+                "abstract": "Information Security is one of the most important concerns about these days. Several issues and vulnerabilities are discovered everyday, affecting a lot of industries, leaking information which could be secured with a simple update. In this talk, we are going to explain why security testing can be done based on simple tools like browser debugging, TLS, browser developer tools, correct management of cookies, among others. As a result, you will realize how exposed you are and how to protect your web app in a live environment.",
+                "twitter": "scaleconfco"
+            
+            },
+            {
+                "hour": "4:20 PM",
                 "title": "Building a Serverless System on AWS for Realtime Ad Processing",
                 "speaker": "David Greenberg",
                 "business": "Amazon Advertising",
                 "abstract": "What if you could just write your system's logic and have your infrastructure and scaling managed by someone else? In this talk, you'll hear how one team in Amazon Advertising migrated a 25000 TPS pipeline to serverless technologies."
-            },
-            {
-                "hour": "4:00 PM",
-                "title": "Coffee / Snack Break"
-            },
-            {
-                "hour": "4:20 PM",
-                "title": "Modern Security with Microservices and the Cloud",
-                "speaker": "Seth Vargo",
-                "business": "Google Cloud",
-                "abstract": "It’s great that you’ve moved to microservices, but how are you distributing secrets? This talk offers an overview of Vault’s unique approach to secret management by providing secrets as a service for services (and humans), that is highly scalable and easily customizable to fit any environment.",
-                "twitter": "sethvargo"
             },
             {
                 "hour": "4:55 PM",
@@ -128,7 +140,7 @@
                 "twitter": "ifesdjeen"
             },
             {
-                "hour": "11:25 AM",
+                "hour": "10:25 AM",
                 "title": "Metaphors We Compute By",
                 "speaker": "Alvaro Videla",
                 "business": "Former Core Dev @ RabbitMQ",
@@ -149,11 +161,11 @@
             },
             {
                 "hour": "12:00 PM",
-                "title": "Reactive Microservices",
-                "speaker": "Didier Tabares",
-                "business": "PSL",
-                "abstract": "Within a microservices architecture, what does it take to build a highly responsive system, vastly improve the user experience and ensure fail resilience? By applying reactive principles and patterns, of course. Learn how to respond to the needs of today while anticipating the demands of tomorrow.",
-                "twitter": "dialtahi"
+                "title": "Modern Security with Microservices and the Cloud",
+                "speaker": "Seth Vargo",
+                "business": "Google Cloud",
+                "abstract": "It’s great that you’ve moved to microservices, but how are you distributing secrets? This talk offers an overview of Vault’s unique approach to secret management by providing secrets as a service for services (and humans), that is highly scalable and easily customizable to fit any environment.",
+                "twitter": "sethvargo"
             },
             {
                 "hour": "12:35 PM",
@@ -193,28 +205,43 @@
             },
             {
                 "hour": "4:20 PM",
+                "title": "AlphaZero - Advanced reinforcement learning",
+                "speaker": "Sergio Villegas",
+                "business": "Easy Solutions Inc",
+                "abstract": "Self taught learner with a passion for explaining things. Two and a half years of hands-on/hacker data scientist in a Colombian start up.",
+                "twitter": "scaleconfco"
+            },
+            {
+                "hour": "4:35 PM",
+                "title": "CD en CloudFront con CircleCI y Workflows",
+                "speaker": "Maria Camila Gomez Restrepo",
+                "business": "Experimentality SAS",
+                "abstract": "Desplegar el front-end en CloudFront (AWS) puede llegar a ser un dolor de cabeza si no se sabe cuales son los paso a seguir, además de se un proceso tedioso para agregar el más mínimo cambio. Por ello esta charla espera entregar algunos trucos que me has facilitado la vida en los últimos meses."
+            },
+            {
+                "hour": "4:50 PM",
                 "title": "",
                 "speaker": "Diptanu Choudhury",
                 "business": "Facebook",
                 "twitter": "diptanu"
             },
             {
-                "hour": "4:55 PM",
+                "hour": "5:25 PM",
                 "title": "",
                 "speaker": "Veronica Lopez",
                 "business": "CoreOS",
                 "twitter": "maria_fibonacci"
             },
             {
-                "hour": "5:30 PM",
+                "hour": "6:00 PM",
                 "title": "Closing remarks"
             },
             {
-                "hour": "5:45 PM",
+                "hour": "6:15 PM",
                 "title": "End"
             },
             {
-                "hour": "6:00 PM",
+                "hour": "6:30 PM",
                 "title": "Bus leaves to closing event / hotel"
             },
             {
