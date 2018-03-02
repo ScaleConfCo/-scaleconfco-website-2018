@@ -5,7 +5,7 @@
         "tracks": [
             {
                 "hour": "8:45 AM",
-                "title": "Registration"
+                "title": "🎟 Registration"
             },
             {
                 "hour": "9:30 AM",
@@ -28,7 +28,7 @@
             },
             {
                 "hour": "11:00 AM",
-                "title": "Coffee / Snack Break"
+                "title": "☕🥐 Coffee / Snack Break"
             },
             {
                 "hour": "11:25 AM",
@@ -72,7 +72,7 @@
             },
             {
                 "hour": "3:25 PM",
-                "title": "Coffee / Snack Break"
+                "title": "☕🥐 Coffee / Snack Break"
             },
             {
                 "hour": "3:45 PM",
@@ -87,7 +87,7 @@
                 "speaker": "Julián Forero",
                 "business": "Endava",
                 "abstract": "Information Security is one of the most important concerns about these days. Several issues and vulnerabilities are discovered everyday, affecting a lot of industries, leaking information which could be secured with a simple update. In this talk, we are going to explain why security testing can be done based on simple tools like browser debugging, TLS, browser developer tools, correct management of cookies, among others. As a result, you will realize how exposed you are and how to protect your web app in a live environment.",
-                "twitter": "scaleconfco"
+                "twitter": "scaleconfco#"
             
             },
             {
@@ -95,7 +95,8 @@
                 "title": "Building a Serverless System on AWS for Realtime Ad Processing",
                 "speaker": "David Greenberg",
                 "business": "Amazon Advertising",
-                "abstract": "What if you could just write your system's logic and have your infrastructure and scaling managed by someone else? In this talk, you'll hear how one team in Amazon Advertising migrated a 25000 TPS pipeline to serverless technologies."
+                "abstract": "What if you could just write your system's logic and have your infrastructure and scaling managed by someone else? In this talk, you'll hear how one team in Amazon Advertising migrated a 25000 TPS pipeline to serverless technologies.",
+                "twitter": "dgrnbrg"
             },
             {
                 "hour": "4:55 PM",
@@ -111,11 +112,11 @@
             },
             {
                 "hour": "5:45 PM",
-                "title": "End"
+                "title": "👋 End"
             },
             {
                 "hour": "6:00 PM",
-                "title": "Bus leaves to hotel"
+                "title": "🚌 Bus leaves to hotel"
             }
         ]
     },
@@ -125,7 +126,7 @@
         "tracks": [
             {
                 "hour": "9:00 AM",
-                "title": "Registration"
+                "title": "🎟 Registration"
             },
             {
                 "hour": "9:30 AM",
@@ -149,7 +150,7 @@
             },
             {
                 "hour": "11:00 AM",
-                "title": "Coffee / Snack Break"
+                "title": "☕🥐 Coffee / Snack Break"
             },
             {
                 "hour": "11:25 AM",
@@ -169,7 +170,7 @@
             },
             {
                 "hour": "12:35 PM",
-                "title": "Conference Photo"
+                "title": "📷 Conference Photo"
             },
             {
                 "hour": "12:55 PM",
@@ -193,7 +194,7 @@
             },
             {
                 "hour": "3:25 PM",
-                "title": "Kubernetes For Beginners: An intro to the magic of containers orchestration",
+                "title": "Kubernetes: An intro to the magic of containers orchestration",
                 "speaker": "Catherin Cruz",
                 "business": "Velocity Partners",
                 "abstract": "Have you tried to figure out what is Kubernetes and how it works? Yes, it’s a bit challenging and sometimes just plain magic. What about starting from knowing the power of its components, its deploys spells, and then get the wizard best practices. Here is an intro to the magical world of Kubernetes!",
@@ -201,7 +202,7 @@
             },
             {
                 "hour": "4:00 PM",
-                "title": "Coffee / Snack Break"
+                "title": "☕🥐 Coffee / Snack Break"
             },
             {
                 "hour": "4:20 PM",
@@ -216,7 +217,8 @@
                 "title": "CD en CloudFront con CircleCI y Workflows",
                 "speaker": "Maria Camila Gomez Restrepo",
                 "business": "Experimentality SAS",
-                "abstract": "Desplegar el front-end en CloudFront (AWS) puede llegar a ser un dolor de cabeza si no se sabe cuales son los paso a seguir, además de se un proceso tedioso para agregar el más mínimo cambio. Por ello esta charla espera entregar algunos trucos que me has facilitado la vida en los últimos meses."
+                "abstract": "Desplegar el front-end en CloudFront (AWS) puede llegar a ser un dolor de cabeza si no se sabe cuales son los paso a seguir, además de se un proceso tedioso para agregar el más mínimo cambio. Por ello esta charla espera entregar algunos trucos que me has facilitado la vida en los últimos meses.",
+                "twitter": "camigomez318"
             },
             {
                 "hour": "4:50 PM",
@@ -238,16 +240,16 @@
             },
             {
                 "hour": "6:15 PM",
-                "title": "End"
+                "title": "👋 End"
             },
             {
                 "hour": "6:30 PM",
-                "title": "Bus leaves to closing event / hotel"
+                "title": "🚌 Bus leaves to closing event / hotel"
             },
             {
                 "hour": "6:30 PM",
-                "title": "Closing Event",
-                "abstract": "(Free transportation provided outside of venue of closing event)"
+                "title": "🎉 Closing Event",
+                "abstract": "(Free transportation provided outside of venue to closing event)"
             }
         ]
     }

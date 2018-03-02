@@ -3,9 +3,11 @@ title: ScaleConfCo
 email: hola@scaleconfco.com
 description: ""
 baseurl: "/"
-url: ""
+url: "https://scaleconfco.com/"
 twitter_username: scaleconfco
 github_username:  ScaleConfCo
+
+repository: scaleconfco-website-2018/scaleconfco.github.io
 
 # Build settings
 plugins:
