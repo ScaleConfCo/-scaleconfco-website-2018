@@ -21,6 +21,12 @@
                 "website": "https://www.todo1services.com/",
                 "image": "",
                 "description": ""
+            },
+            {
+                "name": "Microsoft",
+                "website": "https://www.microsoft.com",
+                "image": "",
+                "description": ""
             }
         ],
 
@@ -36,6 +42,12 @@
                 "website": "https://www.hugeinc.com/",
                 "image": "",
                 "description": ""
+            },
+            {
+                "name": "Tpaga",
+                "website": "https://tpaga.co/",
+                "image": "",
+                "description": "El App que empodera a las personas hacia un mundo sin efectivo"
             }
         ],
 
