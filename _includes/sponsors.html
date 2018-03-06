@@ -1,0 +1,31 @@
+<section id="sponsors">
+    <div class="sponsorsHeader">
+        <h2 class="bold">{{ t.sponsors.title }}</h2>
+        <p>{{ t.sponsors.description }}</p>
+    </div>
+    {% for plan in site.data.sponsors %}
+        <div class="sponsors{{ plan.name }}">
+            <h3>{{ plan.name }}</h3>
+            <div class="sponsors">
+                {% for sponsor in plan.sponsors %}
+                    <div class="sponsor">
+                        {% if sponsor.hiring %}
+                            <div class="hiring">{{ t.sponsors.hiring }}</div>
+                        {% endif %}
+                        <a href="{{ sponsor.website }}" class="sponsorImage">
+                            <img src="/images/sponsors/{{ sponsor.image }}.png" alt="Sponsor - {{ sponsor.name }}">
+                        </a>
+                        {% if sponsor.description %}
+                            <div class="sponsorDescription">
+                                <p>{{ sponsor.description }}</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+    <div class="sponsorsButton">
+            <a href="mailto:hola@scaleconfco.com?subject=Scaleconfco%E2%80%99s%20sponsorship&body=I%20would%20like%20more%20information%20on%20Scaleconfco%E2%80%99s%20sponsorship." class="sponsorButton" onclick="ga('send', 'event', 'Become a sponsor', 'click', 'Become a sponsor', '2018');">{{ t.sponsors.button }}</a>
+    </div>
+</section>
