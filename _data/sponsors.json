@@ -1,68 +1,67 @@
 [
     {
-        "gold": [
-            {
-                "name": "Get on Board",
-                "website": "https://www.getonbrd.com/",
-                "image": "",
-                "description": ""
-            },
+        "name": "Gold",
+        "sponsors": [
             {
                 "name": "rutaN",
                 "website": "https://www.rutanmedellin.org",
-                "image": "",
-                "description": ""
+                "image": "rutan"
+            },
+            {
+                "name": "Get on Board",
+                "website": "https://www.getonbrd.com/",
+                "image": "getonboard"
             }
-        ],
-        
-        "silver": [
+        ]
+    },
+    {
+        "name": "Silver",
+        "sponsors": [
             {
                 "name": "Todo1",
                 "website": "https://www.todo1services.com/",
-                "image": "",
-                "description": ""
+                "image": "todo1"
             },
             {
                 "name": "Microsoft",
                 "website": "https://www.microsoft.com",
-                "image": "",
-                "description": ""
+                "image": "microsoft"
             }
-        ],
-
-        "bronze": [
+        ]
+    },
+    {
+        "name": "Bronze",
+        "sponsors": [
             {
                 "name": "Seven4n",
                 "website": "http://s4n.co/",
-                "image": "",
-                "description": ""
+                "image": "seven4n"
             },
             {
                 "name": "Huge",
                 "website": "https://www.hugeinc.com/",
-                "image": "",
-                "description": ""
+                "image": "huge"
             },
             {
                 "name": "Tpaga",
                 "website": "https://tpaga.co/",
-                "image": "",
+                "image": "tpaga",
                 "description": "El App que empodera a las personas hacia un mundo sin efectivo"
             }
-        ],
-
-        "Travel sponsor which are most likely Bronze (fix this category (add them to bronze(?)) or change this name)": [
+        ]
+    },
+    {
+        "name": "Travel",
+        "sponsors": [
             {
                 "name": "Google Cloud",
                 "website": "https://cloud.google.com",
-                "image": "",
-                "description": ""
+                "image": "google_cloud"
             },
             {
                 "name": "uBiome",
                 "website": "https://ubiome.com/",
-                "image": "",
-                "description": ""
+                "image": "ubiome"
             }
         ]
     }
