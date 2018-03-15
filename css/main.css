@@ -312,6 +312,10 @@ h2:after{
 #scholarships .blueButton {
     padding: 0.5rem 3rem;
 }
+#scholarchips .disabled {
+    background-color: #555;
+    cursor: default;
+}
 
 #codeOfConduct h2 {
     margin-bottom: 4rem;
