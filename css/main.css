@@ -312,7 +312,7 @@ h2:after{
 #scholarships .blueButton {
     padding: 0.5rem 3rem;
 }
-#scholarchips .disabled {
+#scholarships .blueButton.disabled {
     background-color: #555;
     cursor: default;
 }
