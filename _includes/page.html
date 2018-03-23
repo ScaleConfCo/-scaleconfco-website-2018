@@ -78,6 +78,12 @@
     </div>
 </section>
 {% include agenda.html %}
+<section id="accessibility">
+    <h2 class="bold">{{ t.accessibility.title }}</h2>
+    <p>{{ t.accessibility.first }}</p>
+    <p>{{ t.accessibility.second }}</p>
+    <p>{{ t.accessibility.third }}</p>
+</section>
 <section id="scholarships">
     <h2 class="bold">{{ t.scholarships.title }}</h2>
     <div>
@@ -89,8 +95,8 @@
     </div>
     <p>
     	<a href="#scholarships" class="blueButton disabled">{{ t.scholarships.button }}</a>
-	<br>
-	<br>
+	    <br>
+	    <br>
         <a href="https://donorbox.org/scaleconf-colombia-diversity-program" class="blueButton" onclick="ga('send', 'event', 'Scholarships', 'click', 'Opportunity Sponsor');">{{ t.scholarships.sponsor }}</a>
     </p>
 </section>

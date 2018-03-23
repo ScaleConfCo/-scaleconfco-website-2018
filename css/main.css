@@ -263,7 +263,7 @@ h2:after{
     color: #555;
 }
 
-#about, #speakers, #codeOfConduct, #scholarships, footer, #cityGuideIntro, #airports, #airportsToCity, #aroundTheCity, #coffe, #venue, #guideHotels, #hotels, #hotelsGuide, #sponsors {
+#about, #speakers, #codeOfConduct, #scholarships, footer, #cityGuideIntro, #airports, #airportsToCity, #aroundTheCity, #coffe, #venue, #guideHotels, #hotels, #hotelsGuide, #sponsors, #accessibility {
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -303,6 +303,13 @@ h2:after{
 
 .speakerDescription {
     min-height: 4rem;
+}
+
+#accessibility p {
+    margin: 2rem 0;
+}
+#accessibility p:last-child {
+    margin: 2rem 0 0;
 }
 
 #scholarships > p {
