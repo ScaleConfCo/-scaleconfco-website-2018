@@ -229,9 +229,10 @@
             },
             {
                 "hour": "5:25 PM",
-                "title": "",
+                "title": "The Math behind Distributed Systems",
                 "speaker": "Veronica Lopez",
                 "business": "CoreOS",
+                "abstract": "Formal verification of distributed systems is hard and expensive. Instead of dealing with it, modern distributed systems rely on tools like observability, extensive testing, and more recently, chaos engineering. Understanding the math behind distributed computing, and being able to express systems in terms of algebraic topology and graph theory brings a new possibility of formal verification and a new approach towards solving complex problems and their interconnections.",
                 "twitter": "maria_fibonacci"
             },
             {
