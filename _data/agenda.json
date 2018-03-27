@@ -209,7 +209,7 @@
                 "title": "AlphaZero - Advanced reinforcement learning",
                 "speaker": "Sergio Villegas",
                 "business": "Easy Solutions Inc",
-                "abstract": "Self taught learner with a passion for explaining things. Two and a half years of hands-on/hacker data scientist in a Colombian start up.",
+                "abstract": "A long stading feat of reinforcement learning is to learn achieve superhuman proficiency in challenging domains by self learning. Google’s DeepMind team has made a step forward in this direction. They created an algorithm that it is its own teacher with the use of deep reinforcement learning. The program was able to win100-0 against the previously published, champion-defeating AlphaGo. In this talk I will talk about the reasons why AlphaZero is a massive step forward for Artificial Intelligence. 1. AlphaZero requires zero human expertise as input, 2. Elegant solution.",
                 "twitter": "scaleconfco"
             },
             {
