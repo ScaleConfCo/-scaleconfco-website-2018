@@ -92,10 +92,10 @@
             },
             {
                 "hour": "4:20 PM",
-                "title": "Building a Serverless System on AWS for Realtime Ad Processing",
+                "title": "Functional Programming & NoSQL Design",
                 "speaker": "David Greenberg",
                 "business": "Amazon Advertising",
-                "abstract": "What if you could just write your system's logic and have your infrastructure and scaling managed by someone else? In this talk, you'll hear how one team in Amazon Advertising migrated a 25000 TPS pipeline to serverless technologies.",
+                "abstract": "Over the past several years, NoSQL databases are seen everywhere, because they are scalable and easy to set up and operate. Multi-database systems have also become common: relational databases can handle joins that NoSQL databases cannot, and legacy databases stay around because migrations are expensive. Over the same time period, software developers have come to identify immutability as a simplifying tool that helps the creation of concurrent and distributed systems. In this talk, we'll learn about immutability, a concept from functional programming. By learning about structural sharing, immutable views, and simplified diagnostic debugging, we'll see how we can leverage this concept in order to improve the performance and effectiveness of NoSQL data models and schema design.",
                 "twitter": "dgrnbrg"
             },
             {
