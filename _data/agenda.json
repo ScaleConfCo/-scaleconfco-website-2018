@@ -196,7 +196,7 @@
                 "hour": "3:25 PM",
                 "title": "Kubernetes: An intro to the magic of containers orchestration",
                 "speaker": "Catherin Cruz",
-                "business": "Velocity Partners",
+                "business": "Endava",
                 "abstract": "Have you tried to figure out what is Kubernetes and how it works? Yes, it’s a bit challenging and sometimes just plain magic. What about starting from knowing the power of its components, its deploys spells, and then get the wizard best practices. Here is an intro to the magical world of Kubernetes!",
                 "twitter": "UserTwoGG"
             },
