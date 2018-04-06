@@ -11,6 +11,11 @@
                 "name": "Get on Board",
                 "website": "https://www.getonbrd.com/",
                 "image": "getonboard"
+            },
+            {
+                "name": "Bizagi",
+                "website": "https://www.bizagi.com/",
+                "image": "bizagi"
             }
         ]
     },
@@ -62,6 +67,11 @@
                 "name": "uBiome",
                 "website": "https://ubiome.com/",
                 "image": "ubiome"
+            },
+            {
+                "name": "Cookpad",
+                "website": "https://info.cookpad.com/en/careers",
+                "image": "cookpad"
             }
         ]
     }
