@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 *.pdf
 .vscode
+.DS_Store
+*/.DS_Store

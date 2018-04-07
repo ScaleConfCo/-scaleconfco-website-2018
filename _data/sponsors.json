@@ -11,6 +11,11 @@
                 "name": "Get on Board",
                 "website": "https://www.getonbrd.com/",
                 "image": "getonboard"
+            },
+            {
+                "name": "Bizagi",
+                "website": "https://www.bizagi.com/",
+                "image": "bizagi"
             }
         ]
     },
@@ -20,7 +25,9 @@
             {
                 "name": "Todo1",
                 "website": "https://www.todo1services.com/",
-                "image": "todo1"
+                "image": "todo1",
+                "hiring": true,
+                "description": "Con una excepcional trayectoria de más de 15 años, TODO1 entrega productos y servicios innovadores y seguros a través de canales digitales a entidades financieras en América Latina que desean transformar positivamente la vida de sus clientes."
             },
             {
                 "name": "Microsoft",
@@ -47,6 +54,11 @@
                 "website": "https://tpaga.co/",
                 "image": "tpaga",
                 "description": "El App que empodera a las personas hacia un mundo sin efectivo"
+            },
+            {
+                "name": "PSL",
+                "website": "http://psl.com.co/",
+                "image": "psl"
             }
         ]
     },
@@ -62,6 +74,12 @@
                 "name": "uBiome",
                 "website": "https://ubiome.com/",
                 "image": "ubiome"
+            },
+            {
+                "name": "Cookpad",
+                "website": "https://info.cookpad.com/en/careers",
+                "image": "cookpad",
+                "hiring": true
             }
         ]
     }

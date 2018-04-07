@@ -222,7 +222,7 @@
             },
             {
                 "hour": "4:50 PM",
-                "title": "",
+                "title": "Patterns for building Highly Available Cluster Schedulers",
                 "speaker": "Diptanu Choudhury",
                 "business": "Facebook",
 		"abstract": "Schedulers are at the core of modern infrastructure and offer various foundational services on top of which applications using SOA principles are built. In this talks, we would go over some of the most important papers in the last decade and discuss how to build scalable schedulers for elastic infrastructure. We would also discuss how those principles are applied to open source schedulers like Nomad, Mesos or Kubernetes.",
