@@ -13,9 +13,10 @@
             },
             {
                 "hour": "9:50 AM",
-                "title": "",
+                "title": "Nobody Knows What Time It Is",
                 "speaker": "Vaidehi Joshi",
                 "business": "Tilde",
+		"abstract": "Someone once said that time is a flat circle, which is all well and good...but how on earth does anyone know what time it actually is? In this talk, we’ll try to understand why time is such a hard problem in distributed systems, some of the ways that people have tried to solve this problem, and how one computer scientist's solution completely changed the trajectory of the internet forever.",
                 "twitter": "vaidehijoshi"
             },
             {
