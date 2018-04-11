@@ -52,8 +52,9 @@
             },
             {
                 "name": "Tpaga",
-                "website": "https://tpaga.co/",
+                "website": "https://tpaga.co/page/trabaja-con-nosotros",
                 "image": "tpaga",
+                "hiring": true,
                 "description": "El App que empodera a las personas hacia un mundo sin efectivo"
             },
             {
