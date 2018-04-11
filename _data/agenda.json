@@ -16,7 +16,7 @@
                 "title": "Nobody Knows What Time It Is",
                 "speaker": "Vaidehi Joshi",
                 "business": "Tilde",
-		"abstract": "Someone once said that time is a flat circle, which is all well and good...but how on earth does anyone know what time it actually is? In this talk, we’ll try to understand why time is such a hard problem in distributed systems, some of the ways that people have tried to solve this problem, and how one computer scientist's solution completely changed the trajectory of the internet forever.",
+                "abstract": "Someone once said that time is a flat circle, which is all well and good...but how on earth does anyone know what time it actually is? In this talk, we’ll try to understand why time is such a hard problem in distributed systems, some of the ways that people have tried to solve this problem, and how one computer scientist's solution completely changed the trajectory of the internet forever.",
                 "twitter": "vaidehijoshi"
             },
             {
@@ -65,25 +65,14 @@
             },
             {
                 "hour": "2:50 PM",
-                "title": "Reactive Microservices",
-                "speaker": "Didier Tabares",
-                "business": "PSL",
+                "title": "CD en CloudFront con CircleCI y Workflows",
+                "speaker": "Maria Camila Gomez Restrepo",
+                "business": "Experimentality SAS",
                 "abstract": "Within a microservices architecture, what does it take to build a highly responsive system, vastly improve the user experience and ensure fail resilience? By applying reactive principles and patterns, of course. Learn how to respond to the needs of today while anticipating the demands of tomorrow.",
-                "twitter": "dialtahi"
+                "twitter": "camigomez318"
             },
             {
-                "hour": "3:25 PM",
-                "title": "☕🥐 Coffee / Snack Break"
-            },
-            {
-                "hour": "3:45 PM",
-                "title": "",
-                "speaker": "Little engineers",
-                "business": "FMO",
-                "abstract": ""
-            },
-            {
-                "hour": "4:05 PM",
+                "hour": "3:05 PM",
                 "title": "Attacking yourself is healthy",
                 "speaker": "Julián Forero",
                 "business": "Endava",
@@ -92,7 +81,26 @@
             
             },
             {
-                "hour": "4:20 PM",
+                "hour": "3:20 PM",
+                "title": "☕🥐 Coffee / Snack Break"
+            },
+            {
+                "hour": "3:40 PM",
+                "title": "",
+                "speaker": "Little engineers",
+                "business": "FMO",
+                "abstract": ""
+            },
+            {
+                "hour": "3:55 PM",
+                "title": "Reactive Microservices",
+                "speaker": "Didier Tabares",
+                "business": "PSL",
+                "abstract": "Within a microservices architecture, what does it take to build a highly responsive system, vastly improve the user experience and ensure fail resilience? By applying reactive principles and patterns, of course. Learn how to respond to the needs of today while anticipating the demands of tomorrow.",
+                "twitter": "dialtahi"
+            },
+            {
+                "hour": "4:30 PM",
                 "title": "Functional Programming & NoSQL Design",
                 "speaker": "David Greenberg",
                 "business": "Amazon Advertising",
@@ -100,7 +108,7 @@
                 "twitter": "dgrnbrg"
             },
             {
-                "hour": "4:55 PM",
+                "hour": "5:05 PM",
                 "title": "Operaciones Matriciales a Gran Escala",
                 "speaker": "Elizabeth Ramirez",
                 "business": "Descartes Labs",
@@ -108,11 +116,11 @@
                 "twitter": "eramirem"
             },
             {
-                "hour": "5:30 PM",
+                "hour": "5:40 PM",
                 "title": "Closing remarks"
             },
             {
-                "hour": "5:45 PM",
+                "hour": "5:50 PM",
                 "title": "👋 End"
             },
             {
@@ -206,23 +214,15 @@
                 "title": "☕🥐 Coffee / Snack Break"
             },
             {
-                "hour": "4:35 PM",
-                "title": "CD en CloudFront con CircleCI y Workflows",
-                "speaker": "Maria Camila Gomez Restrepo",
-                "business": "Experimentality SAS",
-                "abstract": "Desplegar el front-end en CloudFront (AWS) puede llegar a ser un dolor de cabeza si no se sabe cuales son los paso a seguir, además de se un proceso tedioso para agregar el más mínimo cambio. Por ello esta charla espera entregar algunos trucos que me has facilitado la vida en los últimos meses.",
-                "twitter": "camigomez318"
-            },
-            {
-                "hour": "4:50 PM",
+                "hour": "4:20 PM",
                 "title": "Patterns for building Highly Available Cluster Schedulers",
                 "speaker": "Diptanu Choudhury",
                 "business": "Facebook",
-		"abstract": "Schedulers are at the core of modern infrastructure and offer various foundational services on top of which applications using SOA principles are built. In this talks, we would go over some of the most important papers in the last decade and discuss how to build scalable schedulers for elastic infrastructure. We would also discuss how those principles are applied to open source schedulers like Nomad, Mesos or Kubernetes.",
+                "abstract": "Schedulers are at the core of modern infrastructure and offer various foundational services on top of which applications using SOA principles are built. In this talks, we would go over some of the most important papers in the last decade and discuss how to build scalable schedulers for elastic infrastructure. We would also discuss how those principles are applied to open source schedulers like Nomad, Mesos or Kubernetes.",
                 "twitter": "diptanu"
             },
             {
-                "hour": "5:25 PM",
+                "hour": "4:55 PM",
                 "title": "The Math behind Distributed Systems",
                 "speaker": "Veronica Lopez",
                 "business": "CoreOS",
@@ -230,19 +230,19 @@
                 "twitter": "maria_fibonacci"
             },
             {
-                "hour": "6:00 PM",
+                "hour": "5:30 PM",
                 "title": "Closing remarks"
             },
             {
-                "hour": "6:15 PM",
+                "hour": "5:40 PM",
                 "title": "👋 End"
             },
             {
-                "hour": "6:30 PM",
+                "hour": "5:50 PM",
                 "title": "🚌 Bus leaves to closing event / hotel"
             },
             {
-                "hour": "6:30 PM",
+                "hour": "6:20 PM",
                 "title": "🎉 Closing Event",
                 "abstract": "(Free transportation provided outside of venue to closing event)"
             }
