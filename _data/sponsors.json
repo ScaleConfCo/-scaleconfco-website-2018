@@ -14,8 +14,9 @@
             },
             {
                 "name": "Bizagi",
-                "website": "https://www.bizagi.com/",
-                "image": "bizagi"
+                "website": "https://www.bizagi.com/es/acerca-de/trabajos",
+                "image": "bizagi",
+		"hiring": true
             }
         ]
     },

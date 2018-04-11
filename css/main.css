@@ -587,9 +587,7 @@ section.svg .svg-footer {
 #sponsors .sponsorsSilver .sponsors .sponsor {
     width: 25%;
 }
-#sponsors .sponsorsBronze .sponsors .sponsor {
-    width: 20%;
-}
+#sponsors .sponsorsBronze .sponsors .sponsor,
 #sponsors .sponsorsTravel .sponsors .sponsor {
     width: 18%;
 }
