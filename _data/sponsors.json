@@ -63,8 +63,9 @@
             },
             {
                 "name": "PSL",
-                "website": "http://psl.com.co/",
-                "image": "psl"
+                "website": "http://psl.com.co/empleo.html",
+                "image": "psl",
+                "hiring": true
             }
         ]
     },
