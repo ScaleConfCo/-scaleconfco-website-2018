@@ -42,20 +42,24 @@
         "sponsors": [
             {
                 "name": "Seven4n",
-                "website": "http://s4n.co/",
-                "image": "seven4n"
+                "website": "http://s4n.co/es-trabaja-con-nosotros",
+                "image": "seven4n",
+                "hiring": true,
+                "description": "Nuestros clientes nos consideran una pieza clave para construir con ellos su tecnología más importante. Postúlate y haz software de calidad con nosotros."
             },
             {
                 "name": "Huge",
-                "website": "https://www.hugeinc.com/",
-                "image": "huge"
+                "website": "https://www.hugeinc.com/careers/jobs/",
+                "image": "huge",
+                "hiring": true,
+                "description": "Make something you love. We are hiring! ✉️ us at eruiz@hugeinc.com"
             },
             {
                 "name": "Tpaga",
                 "website": "https://tpaga.co/page/trabaja-con-nosotros",
                 "image": "tpaga",
                 "hiring": true,
-                "description": "El App que empodera a las personas hacia un mundo sin efectivo"
+                "description": "El App que empodera a las personas hacia un mundo sin efectivo."
             },
             {
                 "name": "PSL",
