@@ -20,8 +20,8 @@
                             <div>
                                 <canvas id="confetti"></canvas>
                                 <div class="partyinfo">
-                                    <p class="trackinfo">{{ track.hour }} - {{ track.title }}</p>
                                     <p class="place">{{ track.place.name }}</p>
+                                    <p class="trackinfo">{{ track.hour }} - {{ track.title }}</p>
                                     <p class="placeaddress">{{ track.place.address_1 }} - {{ track.place.address_2 }}</p>
                                     <p class="trackabstract">{{ track.abstract | truncatewords: 15 }}</p>
                                 </div>

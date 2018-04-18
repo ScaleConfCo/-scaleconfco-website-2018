@@ -10,7 +10,7 @@ function Confetti() {
     canvas.width = W;
     canvas.height = H;
     //particles
-    var mp = 150; //max particles
+    var mp = 50; //max particles
     var types = ['circle', 'circle', 'triangle', 'triangle', 'line'];
     var colors = [[238, 96, 169], [68, 213, 217], [245, 187, 152], [144, 148, 188], [235, 234, 77]];
     var angles = [[4,0,4,4], [2,2,0,4], [0,4,2,2], [0,4,4,4]]
