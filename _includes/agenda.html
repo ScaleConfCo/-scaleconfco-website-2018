@@ -15,6 +15,16 @@
         {% for day in site.data.agenda %}
             <ul>
                 {% for track in day.tracks %}
+<<<<<<< HEAD
+                    {% if track.party %}
+                        <li class="track party">
+                            <div>
+                                <canvas id="confetti"></canvas>
+                                <div class="partyinfo">
+                                    <p class="place">{{ track.place.name }}</p>
+                                    <p class="trackinfo">{{ track.hour }} - {{ track.title }}</p>
+                                    <p class="placeaddress">{{ track.place.address_1 }} - {{ track.place.address_2 }}</p>
+=======
                     <li class="track">
                         <p class="trackhour">{{ track.hour }}</p>
                         <p class="tracktitle">{{ track.title }}</p>
@@ -26,6 +36,7 @@
                             {% assign wordCount = track.abstract | number_of_words %}
                             {% if wordCount > 15 %}
                                 <div class="trackshowmore trackexcerpt" id="shortDescription{{ track.twitter }}">
+>>>>>>> origin/gh-pages
                                     <p class="trackabstract">{{ track.abstract | truncatewords: 15 }}</p>
                                     <a onclick="showMore('shortDescription{{ track.twitter }}', 'longDescription{{ track.twitter }}')">{{ t.showmore }}</a>
                                 </div>
