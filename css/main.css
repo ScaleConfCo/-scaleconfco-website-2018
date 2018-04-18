@@ -555,6 +555,24 @@ section.svg .svg-footer {
     color: #fff;
 }
 
+#agenda .lists ul li.track.party > div {
+    position: relative;
+}
+#agenda .lists ul li.track.party .partyinfo {
+    position: absolute;
+    top: 0;
+    padding: 25px 25px 0;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.8);
+}
+#agenda .lists ul li.track.party .partyinfo p.trackinfo {
+    color: #3DF9AD;
+    line-height: 1.2rem;
+}
+#agenda .lists ul li.track.party .partyinfo p.place {}
+#agenda .lists ul li.track.party .partyinfo p.placeaddress {}
+#agenda .lists ul li.track.party .partyinfo p.trackabstract {}
+
 #sponsors .sponsorsHeader {
     text-align: center;
 }
@@ -589,7 +607,8 @@ section.svg .svg-footer {
 }
 #sponsors .sponsorsBronze .sponsors .sponsor,
 #sponsors .sponsorsTravel .sponsors .sponsor {
-    width: 18%;
+    min-width: 16%;
+    width: 16%;
 }
 #sponsors .hiring {
     background-color: #0099F7;
