@@ -66,11 +66,6 @@
                 "website": "http://psl.com.co/empleo.html",
                 "image": "psl",
                 "hiring": true
-            },
-            {
-                "name": "Endava",
-                "website": "http://www.endava.com/",
-                "image": "endava"
             }
         ]
     },
