@@ -555,6 +555,7 @@ section.svg .svg-footer {
     color: #fff;
 }
 
+<<<<<<< HEAD
 #agenda .lists ul li.track.party > div {
     position: relative;
 }
@@ -590,6 +591,8 @@ section.svg .svg-footer {
     font-size: 0.8rem;
 }
 
+=======
+>>>>>>> origin/gh-pages
 #sponsors .sponsorsHeader {
     text-align: center;
 }
@@ -624,8 +627,7 @@ section.svg .svg-footer {
 }
 #sponsors .sponsorsBronze .sponsors .sponsor,
 #sponsors .sponsorsTravel .sponsors .sponsor {
-    min-width: 16%;
-    width: 16%;
+    width: 18%;
 }
 #sponsors .hiring {
     background-color: #0099F7;
