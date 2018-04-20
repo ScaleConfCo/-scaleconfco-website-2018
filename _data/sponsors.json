@@ -69,8 +69,9 @@
             },
             {
                 "name": "Endava",
-                "website": "http://www.endava.com/",
-                "image": "endava"
+                "website": "http://careers.endava.com/en",
+                "image": "endava",
+                "hiring": true
             }
         ]
     },
