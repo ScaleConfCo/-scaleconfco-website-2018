@@ -68,7 +68,7 @@
                 "title": "CD en CloudFront con CircleCI y Workflows",
                 "speaker": "Maria Camila Gomez Restrepo",
                 "business": "Experimentality SAS",
-                "abstract": "Desplegar el front-end en CloudFront (AWS) puede llegar a ser un dolor de cabeza si no se sabe cuales son los paso a seguir, además de se un proceso tedioso para agregar el más mínimo cambio. Por ello esta charla espera entregar algunos trucos que me has facilitado la vida en los últimos meses.",
+                "abstract": "Desplegar el front-end en CloudFront (AWS) puede llegar a ser un dolor de cabeza si no se sabe cuales son los paso a seguir, además de ser un proceso tedioso para agregar el más mínimo cambio. Por ello esta charla espera entregar algunos trucos que me han facilitado la vida en los últimos meses.",
                 "twitter": "camigomez318"
             },
             {
