@@ -624,9 +624,8 @@ section.svg .svg-footer {
 }
 #sponsors .sponsorsBronze .sponsors .sponsor,
 #sponsors .sponsorsTravel .sponsors .sponsor {
-    width: 18%;
-    min-width: 16%;
     width: 16%;
+    min-width: 16%;
 }
 #sponsors .hiring {
     background-color: #0099F7;

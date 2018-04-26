@@ -55,11 +55,9 @@
                 "description": "Make something you love. We are hiring! ✉️ us at eruiz@hugeinc.com"
             },
             {
-                "name": "Tpaga",
-                "website": "https://tpaga.co/page/trabaja-con-nosotros",
-                "image": "tpaga",
-                "hiring": true,
-                "description": "El App que empodera a las personas hacia un mundo sin efectivo."
+                "name": "Endava",
+                "website": "http://www.endava.com/",
+                "image": "endava"
             },
             {
                 "name": "PSL",
@@ -68,9 +66,17 @@
                 "hiring": true
             },
             {
-                "name": "Endava",
-                "website": "http://www.endava.com/",
-                "image": "endava"
+                "name": "Tpaga",
+                "website": "https://tpaga.co/page/trabaja-con-nosotros",
+                "image": "tpaga",
+                "hiring": true,
+                "description": "El App que empodera a las personas hacia un mundo sin efectivo."
+            },
+            {
+                "name": "UCN",
+                "website": "http://www.ucn.edu.co/",
+                "image": "ucn",
+                "hiring": true
             }
         ]
     },
