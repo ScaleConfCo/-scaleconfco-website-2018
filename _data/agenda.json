@@ -101,11 +101,11 @@
             },
             {
                 "hour": "4:30 PM",
-                "title": "Functional Programming & NoSQL Design",
-                "speaker": "David Greenberg",
-                "business": "Amazon Advertising",
-                "abstract": "Over the past several years, NoSQL databases are seen everywhere, because they are scalable and easy to set up and operate. Multi-database systems have also become common: relational databases can handle joins that NoSQL databases cannot, and legacy databases stay around because migrations are expensive. Over the same time period, software developers have come to identify immutability as a simplifying tool that helps the creation of concurrent and distributed systems. In this talk, we'll learn about immutability, a concept from functional programming. By learning about structural sharing, immutable views, and simplified diagnostic debugging, we'll see how we can leverage this concept in order to improve the performance and effectiveness of NoSQL data models and schema design.",
-                "twitter": "dgrnbrg"
+                "title": "Patterns for building Highly Available Cluster Schedulers",
+                "speaker": "Diptanu Choudhury",
+                "business": "Facebook",
+                "abstract": "Schedulers are at the core of modern infrastructure and offer various foundational services on top of which applications using SOA principles are built. In this talks, we would go over some of the most important papers in the last decade and discuss how to build scalable schedulers for elastic infrastructure. We would also discuss how those principles are applied to open source schedulers like Nomad, Mesos or Kubernetes.",
+                "twitter": "diptanu"
             },
             {
                 "hour": "5:05 PM",
@@ -215,11 +215,11 @@
             },
             {
                 "hour": "4:20 PM",
-                "title": "Patterns for building Highly Available Cluster Schedulers",
-                "speaker": "Diptanu Choudhury",
-                "business": "Facebook",
-                "abstract": "Schedulers are at the core of modern infrastructure and offer various foundational services on top of which applications using SOA principles are built. In this talks, we would go over some of the most important papers in the last decade and discuss how to build scalable schedulers for elastic infrastructure. We would also discuss how those principles are applied to open source schedulers like Nomad, Mesos or Kubernetes.",
-                "twitter": "diptanu"
+                "title": "Functional Programming & NoSQL Design",
+                "speaker": "David Greenberg",
+                "business": "Amazon Advertising",
+                "abstract": "Over the past several years, NoSQL databases are seen everywhere, because they are scalable and easy to set up and operate. Multi-database systems have also become common: relational databases can handle joins that NoSQL databases cannot, and legacy databases stay around because migrations are expensive. Over the same time period, software developers have come to identify immutability as a simplifying tool that helps the creation of concurrent and distributed systems. In this talk, we'll learn about immutability, a concept from functional programming. By learning about structural sharing, immutable views, and simplified diagnostic debugging, we'll see how we can leverage this concept in order to improve the performance and effectiveness of NoSQL data models and schema design.",
+                "twitter": "dgrnbrg"
             },
             {
                 "hour": "4:55 PM",
