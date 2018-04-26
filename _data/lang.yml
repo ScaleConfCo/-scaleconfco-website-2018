@@ -90,10 +90,6 @@ en:
             easyTaxi: {
                 name: 'Easy Taxi',
                 link: 'http://www.easytaxi.com/co/'
-            },
-            cityTaxi: {
-                name: 'CityTaxi',
-                link: 'http://citytaxiapp.co/'
             }
         },
         metro: {
@@ -274,10 +270,6 @@ es:
             easyTaxi: {
                 name: 'Easy Taxi',
                 link: 'http://www.easytaxi.com/co/'
-            },
-            cityTaxi: {
-                name: 'CityTaxi',
-                link: 'http://citytaxiapp.co/'
             }
         },
         metro: {
