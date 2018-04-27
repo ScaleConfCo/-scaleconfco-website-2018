@@ -4,6 +4,11 @@
         "date": "April 27",
         "tracks": [
             {
+                "hour": "8:20 AM",
+                "title": "🚌 Bus leaves to RutaN",
+                "description": "Bus leaves behind the Diez Hotel (Carrera 35)"
+            },
+            {
                 "hour": "8:45 AM",
                 "title": "🎟 Registration"
             },
@@ -133,6 +138,11 @@
         "day": "Day 2",
         "date": "April 28",
         "tracks": [
+            {
+                "hour": "8:40 AM",
+                "title": "🚌 Bus leaves to RutaN",
+                "description": "Bus leaves behind the Diez Hotel (Carrera 35)"
+            },
             {
                 "hour": "9:00 AM",
                 "title": "🎟 Registration"
