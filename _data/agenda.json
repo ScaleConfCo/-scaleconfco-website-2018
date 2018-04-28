@@ -261,6 +261,17 @@
                     "address_1": "Carrera 36 # 10A - 71",
                     "address_2": "Medellín, Colombia"
                 }
+            },
+            {
+                "party": true,
+                "hour": "Sunday - 9:00 AM",
+                "title": "Diez Hotel",
+                "abstract": "We invite you to come with us and our speakers to share a breaksfast",
+                "place": {
+                    "name": "Diversity Breakfast",
+                    "address_1": "Calle 10A # 34 - 11",
+                    "address_2": "Medellín, Colombia"
+                }
             }
         ]
     }
